@@ -1,226 +1,441 @@
-﻿## Tài liệu Nghiên cứu Hướng dẫn Nhập môn Nghiên cứu Khoa học trong Lĩnh vực Hệ thống Thông tin: Từ Cơ bản đến Nâng cao
+﻿## Tài liệu Nghiên cứu Hướng dẫn Nhập môn Nghiên cứu Khoa học Lĩnh vực Hệ thống Thông tin: Từ Cơ bản đến Nâng cao
 
 **Tóm tắt**
 
-Tài liệu nghiên cứu này cung cấp một hướng dẫn toàn diện, từng bước về nhập môn nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin (HTTT). Tài liệu tập trung vào việc trang bị cho người mới bắt đầu những kiến thức và kỹ năng cần thiết để tiến hành nghiên cứu HTTT một cách hiệu quả và có hệ thống. Hướng dẫn này ưu tiên một cách tiếp cận cân bằng, bao gồm các phương pháp nghiên cứu định lượng, định tính và khoa học thiết kế, đồng thời tích hợp các khung lý thuyết nền tảng như Mô hình Chấp nhận Công nghệ (TAM), Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT) và Mô hình Thành công Hệ thống Thông tin DeLone & McLean. Tài liệu cũng thảo luận về các nguồn dữ liệu phù hợp, phân tích so sánh các mô hình nghiên cứu khác nhau và xác định phạm vi giới hạn trong các phân ngành HTTT cụ thể. Mục tiêu là cung cấp một lộ trình rõ ràng và thực tế, giúp người đọc từ chỗ chưa có kiến thức nền tảng đến khả năng thực hiện nghiên cứu HTTT độc lập và chất lượng.
+Tài liệu nghiên cứu này cung cấp một hướng dẫn toàn diện và từng bước về nhập môn nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin (HTTT), được thiết kế để hỗ trợ người mới bắt đầu tiếp cận và nắm vững các phương pháp và khung lý thuyết nền tảng. Tài liệu tập trung vào ba phương pháp nghiên cứu chính: định lượng, định tính và khoa học thiết kế, đồng thời tích hợp các khung lý thuyết phổ biến như Mô hình Chấp nhận Công nghệ (TAM), Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT), và Mô hình Thành công Hệ thống Thông tin DeLone & McLean. Hướng dẫn này cũng minh họa việc sử dụng các nguồn dữ liệu đa dạng, bao gồm dữ liệu công khai, dữ liệu doanh nghiệp và dữ liệu khảo sát, để làm phong phú thêm các phương pháp nghiên cứu. Phân tích so sánh giữa các mô hình nghiên cứu khác nhau (thực chứng, diễn giải, phản biện) được trình bày để làm rõ ưu nhược điểm của từng phương pháp. Phạm vi của tài liệu giới hạn trong năm phân ngành chính của HTTT: Hệ thống Thông tin Doanh nghiệp, Tương tác Người-Máy, An toàn Thông tin, Phân tích Dữ liệu và Công nghệ mới nổi. Tài liệu này hướng đến việc cung cấp một nền tảng vững chắc cho người mới bắt đầu nghiên cứu HTTT, từ đó thúc đẩy các nghiên cứu chất lượng và có giá trị trong lĩnh vực này.
 
 **1. Giới thiệu**
 
-Nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin (HTTT) đóng vai trò then chốt trong việc mở rộng kiến thức, giải quyết các vấn đề thực tiễn và thúc đẩy sự đổi mới trong kỷ nguyên số. Tuy nhiên, đối với người mới bắt đầu, việc tiếp cận lĩnh vực nghiên cứu HTTT có thể gặp nhiều thách thức do tính đa dạng về phương pháp luận, sự phức tạp của các khung lý thuyết và phạm vi ứng dụng rộng lớn của HTTT [1]. Do đó, nhu cầu về một tài liệu hướng dẫn nhập môn nghiên cứu khoa học HTTT một cách chi tiết, từng bước từ cơ bản đến nâng cao là vô cùng cấp thiết.
+Nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin (HTTT) đóng vai trò then chốt trong việc mở rộng kiến thức, giải quyết các vấn đề thực tiễn và thúc đẩy sự đổi mới trong bối cảnh công nghệ thông tin ngày càng phát triển [1]. Tuy nhiên, đối với những người mới bắt đầu, việc tiếp cận và nắm vững các nguyên tắc, phương pháp và khung lý thuyết của nghiên cứu HTTT có thể là một thách thức đáng kể. Do đó, tài liệu nghiên cứu này được xây dựng nhằm cung cấp một hướng dẫn nhập môn chi tiết, từng bước, giúp người đọc trang bị nền tảng vững chắc để tiến hành nghiên cứu khoa học trong lĩnh vực HTTT một cách hiệu quả.
 
-Tài liệu nghiên cứu này được xây dựng nhằm đáp ứng nhu cầu đó, cung cấp một lộ trình rõ ràng và có cấu trúc cho người mới bắt đầu trong lĩnh vực nghiên cứu HTTT. Mục tiêu chính của tài liệu là trang bị cho người đọc những kiến thức nền tảng vững chắc về các phương pháp nghiên cứu khoa học phổ biến trong HTTT, các khung lý thuyết liên quan, nguồn dữ liệu phù hợp và các vấn đề phương pháp luận quan trọng. Tài liệu này không chỉ giới thiệu các khái niệm cơ bản mà còn hướng dẫn cách áp dụng chúng vào thực tế nghiên cứu, giúp người đọc tự tin bước vào con đường nghiên cứu khoa học HTTT.
+Tài liệu này hướng đến mục tiêu "từ cơ bản đến nâng cao", bắt đầu từ việc giới thiệu các phương pháp nghiên cứu khoa học cốt lõi trong HTTT, bao gồm nghiên cứu định lượng, nghiên cứu định tính và nghiên cứu khoa học thiết kế [1], [3], [9]. Mỗi phương pháp sẽ được trình bày chi tiết về quy trình thực hiện, ưu điểm, hạn chế và các ví dụ ứng dụng cụ thể trong lĩnh vực HTTT. Bên cạnh đó, tài liệu cũng tích hợp các khung lý thuyết nền tảng, đóng vai trò định hướng và cung cấp cơ sở lý luận vững chắc cho các nghiên cứu HTTT, như Mô hình Chấp nhận Công nghệ (TAM), Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT), và Mô hình Thành công Hệ thống Thông tin DeLone & McLean [10], [15], [16], [17].
 
-Để đạt được mục tiêu này, tài liệu sẽ tập trung vào các nội dung chính sau:
+Tầm quan trọng của tài liệu này nằm ở việc cung cấp một nguồn tài liệu tham khảo toàn diện và dễ tiếp cận cho sinh viên, nhà nghiên cứu trẻ và những người quan tâm đến lĩnh vực nghiên cứu HTTT. Tài liệu không chỉ giới thiệu các phương pháp và lý thuyết, mà còn hướng dẫn cách lựa chọn và áp dụng chúng một cách phù hợp trong các bối cảnh nghiên cứu khác nhau. Hơn nữa, việc phân tích so sánh các mô hình nghiên cứu khác nhau (thực chứng, diễn giải, phản biện) giúp người đọc hiểu rõ hơn về các quan điểm triết học và phương pháp luận đa dạng trong nghiên cứu HTTT [5], [6].
 
-*   **Phương pháp nghiên cứu:** Ưu tiên một cách tiếp cận cân bằng, bao gồm nghiên cứu định lượng, nghiên cứu định tính và nghiên cứu khoa học thiết kế, là ba phương pháp nghiên cứu chính thường được sử dụng trong HTTT [1].
-*   **Khung lý thuyết:** Tích hợp các khung lý thuyết phổ biến và có ảnh hưởng trong lĩnh vực HTTT, như Mô hình Chấp nhận Công nghệ (TAM), Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT), Mô hình Thành công Hệ thống Thông tin DeLone & McLean, Lý thuyết Hệ thống Xã hội - Kỹ thuật, Lý thuyết Khuếch tán Đổi mới và Quan điểm Dựa trên Nguồn lực.
-*   **Nguồn dữ liệu:** Hướng dẫn sử dụng các nguồn dữ liệu thực tế và đa dạng, bao gồm dữ liệu công khai, dữ liệu doanh nghiệp và dữ liệu khảo sát/thí nghiệm, để minh họa các phương pháp nghiên cứu khác nhau.
-*   **Phân tích so sánh:** Cung cấp phân tích so sánh chi tiết giữa các mô hình nghiên cứu khác nhau (thực chứng, diễn giải, phản biện) và các phương pháp nghiên cứu (định lượng, định tính, hỗn hợp, khoa học thiết kế) để giúp người đọc lựa chọn phương pháp phù hợp.
-*   **Phạm vi và giới hạn:** Xác định rõ phạm vi và giới hạn của tài liệu trong các phân ngành HTTT cụ thể (Hệ thống Thông tin Doanh nghiệp, Tương tác Người-Máy, An toàn thông tin, Phân tích Dữ liệu, Công nghệ mới) và các cấp độ phân tích.
+Về mặt phương pháp luận, tài liệu này được xây dựng dựa trên việc tổng hợp và phân tích các nguồn tài liệu học thuật uy tín, bao gồm các bài báo khoa học, sách chuyên khảo và kỷ yếu hội nghị trong lĩnh vực HTTT và các lĩnh vực liên quan. Các nguồn tài liệu được lựa chọn đảm bảo tính tin cậy, độ chính xác và tính cập nhật, đồng thời được trích dẫn đầy đủ theo chuẩn mực học thuật [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20].
 
-Cấu trúc của tài liệu được tổ chức một cách logic và có hệ thống, bao gồm: phần giới thiệu (1), tổng quan văn học và khung lý thuyết (2), phương pháp luận nghiên cứu (3), trình bày kết quả nghiên cứu (4), thảo luận về kết quả (5), kết luận (6) và danh mục tài liệu tham khảo (7). Cấu trúc này nhằm đảm bảo rằng người đọc có thể dễ dàng tiếp cận, hiểu và áp dụng các nội dung được trình bày trong tài liệu.
+Cấu trúc của tài liệu được tổ chức một cách hệ thống và logic, bao gồm các phần chính sau:
 
-**2. Tổng quan Văn học và Khung Lý thuyết**
+*   **Phần 2: Tổng quan về Phương pháp luận Nghiên cứu và Khung Lý thuyết trong Hệ thống Thông tin:** Phần này trình bày tổng quan về các phương pháp nghiên cứu chính (định lượng, định tính, khoa học thiết kế) và các khung lý thuyết nền tảng trong HTTT.
+*   **Phần 3: Phương pháp Nghiên cứu Định lượng trong Hệ thống Thông tin:** Phần này đi sâu vào phương pháp nghiên cứu định lượng, bao gồm các phương pháp cụ thể, ứng dụng, ưu điểm và hạn chế.
+*   **Phần 4: Phương pháp Nghiên cứu Định tính trong Hệ thống Thông tin:** Phần này tập trung vào phương pháp nghiên cứu định tính, với các phương pháp, ứng dụng, ưu điểm và hạn chế tương ứng.
+*   **Phần 5: Phương pháp Nghiên cứu Khoa học Thiết kế trong Hệ thống Thông tin:** Phần này giới thiệu phương pháp nghiên cứu khoa học thiết kế, quy trình, ứng dụng và các khía cạnh quan trọng.
+*   **Phần 6: Khung Lý thuyết Nền tảng trong Nghiên cứu Hệ thống Thông tin:** Phần này trình bày chi tiết các khung lý thuyết phổ biến và có ảnh hưởng trong nghiên cứu HTTT, bao gồm TAM, UTAUT, DeLone & McLean, và các lý thuyết liên quan khác.
+*   **Phần 7: Nguồn Dữ liệu và Tập Dữ liệu trong Nghiên cứu Hệ thống Thông tin:** Phần này hướng dẫn cách sử dụng các nguồn dữ liệu khác nhau, bao gồm dữ liệu công khai, dữ liệu doanh nghiệp và dữ liệu khảo sát, để minh họa các phương pháp nghiên cứu.
+*   **Phần 8: Phân tích So sánh các Mô hình Nghiên cứu trong Hệ thống Thông tin:** Phần này so sánh các mô hình nghiên cứu thực chứng, diễn giải và phản biện, làm rõ sự khác biệt và ứng dụng của chúng.
+*   **Phần 9: Phạm vi và Giới hạn của Tài liệu:** Phần này xác định phạm vi và giới hạn của tài liệu, tập trung vào các phân ngành chính của HTTT.
+*   **Phần 10: Kết luận và Hướng nghiên cứu Tương lai:** Phần cuối cùng tóm tắt các điểm chính và đề xuất các hướng nghiên cứu tiếp theo.
 
-**2.1. Đa dạng Phương pháp luận trong Nghiên cứu HTTT**
+**2. Tổng quan về Phương pháp luận Nghiên cứu và Khung Lý thuyết trong Hệ thống Thông tin**
 
-Nghiên cứu HTTT là một lĩnh vực đa dạng về phương pháp luận, kết hợp các phương pháp từ nhiều ngành khoa học khác nhau như công nghệ, quản lý, khoa học chính trị và chiến lược [1]. Sự đa dạng này phản ánh bản chất liên ngành của HTTT và sự phức tạp của các vấn đề nghiên cứu trong lĩnh vực này. Kilani và Kobziev (2016) [1] nhấn mạnh rằng việc lựa chọn phương pháp nghiên cứu trong HTTT cần phải phù hợp với đặc điểm của chủ đề nghiên cứu và mục tiêu của nghiên cứu.
+Nghiên cứu Hệ thống Thông tin (HTTT) là một lĩnh vực đa dạng, sử dụng nhiều phương pháp luận khác nhau để khám phá các vấn đề liên quan đến công nghệ thông tin và sự tương tác của nó với con người, tổ chức và xã hội [1]. Sự đa dạng này phản ánh bản chất liên ngành của HTTT, khi nó kết hợp các lý thuyết và phương pháp từ nhiều lĩnh vực khác nhau như khoa học máy tính, quản lý, tâm lý học, xã hội học và kinh tế học [1].
 
-*   **Nghiên cứu định lượng:** Thường áp dụng phương pháp thực chứng, tập trung vào kiểm định giả thuyết và thiết lập các mối quan hệ nhân quả thông qua dữ liệu số và phân tích thống kê [18], [20]. Các phương pháp định lượng phổ biến trong HTTT bao gồm khảo sát, thí nghiệm và mô hình thống kê.
-*   **Nghiên cứu định tính:** Dao động từ phương pháp thực chứng đến diễn giải, tập trung vào việc khám phá ý nghĩa, kinh nghiệm và bối cảnh xã hội của các hiện tượng HTTT [9], [12], [17]. Các phương pháp định tính phổ biến bao gồm nghiên cứu tình huống, phỏng vấn chuyên sâu và quan sát thực địa.
-*   **Nghiên cứu khoa học thiết kế (DSR):** Là một mô hình giải quyết vấn đề tập trung vào việc tạo ra các hiện vật sáng tạo, mở rộng khả năng của con người và tổ chức [3], [5], [9]. Quy trình DSR bao gồm các bước như xác định vấn đề, đề xuất giải pháp, thiết kế và phát triển, trình diễn, đánh giá và truyền thông [2].
-*   **Nghiên cứu hỗn hợp (MMR):** Kết hợp cả phương pháp định lượng và định tính để cung cấp một cái nhìn toàn diện và sâu sắc hơn về các vấn đề nghiên cứu HTTT [4], [11], [16]. MMR cho phép giải quyết cả câu hỏi khám phá và xác nhận trong cùng một nghiên cứu.
+**2.1. Phương pháp luận Nghiên cứu trong Hệ thống Thông tin**
 
-**2.2. Nghiên cứu Khoa học Thiết kế (DSR) trong HTTT**
+Trong lĩnh vực HTTT, ba phương pháp nghiên cứu chính thường được sử dụng là nghiên cứu định lượng, nghiên cứu định tính và nghiên cứu khoa học thiết kế [1], [3], [9].
 
-Nghiên cứu Khoa học Thiết kế (DSR) là một phương pháp luận đặc biệt quan trọng trong lĩnh vực HTTT, tập trung vào việc xây dựng và đánh giá các hiện vật sáng tạo nhằm giải quyết các vấn đề thực tiễn và đóng góp vào tri thức khoa học [5]. Peffers và cộng sự (2007) [2] đã đề xuất một quy trình DSR gồm sáu bước: (1) xác định vấn đề và động cơ, (2) xác định mục tiêu cho giải pháp, (3) thiết kế và phát triển, (4) trình diễn, (5) đánh giá và (6) truyền thông.
+*   **Nghiên cứu Định lượng:** Phương pháp này tập trung vào việc thu thập và phân tích dữ liệu số để kiểm tra các giả thuyết và xác định các mối quan hệ nhân quả [18], [20]. Nghiên cứu định lượng thường sử dụng các phương pháp như khảo sát, thí nghiệm và mô hình thống kê để đo lường các biến số và phân tích mối quan hệ giữa chúng.
+*   **Nghiên cứu Định tính:** Phương pháp này tập trung vào việc khám phá và hiểu sâu sắc các hiện tượng xã hội và hành vi con người trong bối cảnh tự nhiên của chúng [12], [17]. Nghiên cứu định tính sử dụng các phương pháp như nghiên cứu tình huống, phỏng vấn chuyên sâu, quan sát thực địa và phân tích nội dung để thu thập dữ liệu phong phú và chi tiết.
+*   **Nghiên cứu Khoa học Thiết kế (DSR):** Phương pháp này tập trung vào việc tạo ra và đánh giá các giải pháp công nghệ mới để giải quyết các vấn đề thực tiễn và mở rộng kiến thức trong lĩnh vực HTTT [2], [5]. DSR bao gồm việc thiết kế, phát triển, trình diễn và đánh giá các hiện vật (artifacts) như hệ thống, mô hình, phương pháp và công cụ.
 
-Deng và Ji (2018) [5] trong bài đánh giá về nghiên cứu DSR trong HTTT đã chỉ ra rằng, mặc dù DSR có tiềm năng lớn, vẫn còn tồn tại sự nhầm lẫn về các ý tưởng cốt lõi của DSR, cản trở ảnh hưởng của nó đến lĩnh vực HTTT. Để DSR có thể đóng góp hiệu quả, Hevner và cộng sự [3] nhấn mạnh rằng DSR cần cung cấp các đóng góp có thể kiểm chứng trong ba lĩnh vực: hiện vật thiết kế, nền tảng và phương pháp luận, dựa trên các phương pháp xây dựng và đánh giá nghiêm ngặt [8].
+Sự lựa chọn phương pháp nghiên cứu phụ thuộc vào câu hỏi nghiên cứu, mục tiêu nghiên cứu và bản chất của hiện tượng được nghiên cứu [1]. Nghiên cứu định lượng phù hợp khi mục tiêu là kiểm tra các giả thuyết và đo lường các mối quan hệ, trong khi nghiên cứu định tính phù hợp khi mục tiêu là khám phá và hiểu sâu sắc các hiện tượng phức tạp. Nghiên cứu khoa học thiết kế phù hợp khi mục tiêu là tạo ra các giải pháp công nghệ mới và đánh giá tính hữu ích của chúng.
 
-**2.3. Nghiên cứu Hỗn hợp (MMR) trong HTTT**
+**2.2. Khung Lý thuyết trong Hệ thống Thông tin**
 
-Nghiên cứu Hỗn hợp (MMR) ngày càng được công nhận là một phương pháp luận mạnh mẽ trong nghiên cứu HTTT, cho phép kết hợp điểm mạnh của cả phương pháp định lượng và định tính để cung cấp những hiểu biết sâu sắc và toàn diện hơn [4], [11], [16]. Jokonya (2014) [16] nhấn mạnh rằng MMR cung cấp cơ hội để giải quyết các câu hỏi nghiên cứu đa dạng, từ khám phá đến xác nhận, và cho phép tích hợp nhiều quan điểm nhận thức luận khác nhau [11].
+Khung lý thuyết đóng vai trò quan trọng trong nghiên cứu HTTT, cung cấp nền tảng lý luận và định hướng cho việc thiết kế nghiên cứu, thu thập dữ liệu, phân tích và diễn giải kết quả [10], [15], [16], [17]. Các khung lý thuyết giúp nhà nghiên cứu hiểu rõ hơn về các hiện tượng HTTT, xác định các biến số quan trọng và xây dựng các mô hình giải thích.
 
-Tuy nhiên, Nastjuk và cộng sự (2020) [6] cũng chỉ ra rằng MMR đặt ra những thách thức đáng kể trong việc thu thập, phân tích và trình bày dữ liệu, có thể dẫn đến sự nhầm lẫn và không nhất quán nếu không được thực hiện một cách cẩn thận. Do đó, việc áp dụng MMR đòi hỏi sự hiểu biết sâu sắc về cả phương pháp định lượng và định tính, cũng như khả năng tích hợp chúng một cách hiệu quả.
+Một số khung lý thuyết phổ biến trong nghiên cứu HTTT bao gồm:
 
-**2.4. Phương pháp Nghiên cứu Định tính trong HTTT**
+*   **Mô hình Chấp nhận Công nghệ (TAM):** Mô hình này giải thích sự chấp nhận và sử dụng công nghệ thông tin của người dùng dựa trên hai yếu tố chính: nhận thức về tính hữu ích (perceived usefulness) và nhận thức về tính dễ sử dụng (perceived ease of use) [10].
+*   **Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT):** Mô hình này mở rộng TAM bằng cách tích hợp thêm các yếu tố như kỳ vọng hiệu suất (performance expectancy), kỳ vọng nỗ lực (effort expectancy), ảnh hưởng xã hội (social influence) và các điều kiện tạo điều kiện (facilitating conditions) [16].
+*   **Mô hình Thành công Hệ thống Thông tin DeLone & McLean:** Mô hình này cung cấp một khung đa chiều để đánh giá sự thành công của hệ thống thông tin, bao gồm các khía cạnh như chất lượng hệ thống, chất lượng thông tin, chất lượng dịch vụ, sử dụng, sự hài lòng của người dùng và lợi ích ròng [17].
+*   **Lý thuyết Hệ thống Xã hội - Kỹ thuật (Socio-Technical Systems Theory):** Lý thuyết này nhấn mạnh sự tương tác phức tạp giữa các yếu tố kỹ thuật và xã hội trong hệ thống thông tin, và tầm quan trọng của việc xem xét cả hai khía cạnh này trong nghiên cứu và thiết kế HTTT [20].
+*   **Lý thuyết Khuếch tán Đổi mới (Diffusion of Innovations Theory - DOI):** Lý thuyết này giải thích quá trình đổi mới công nghệ được lan truyền và chấp nhận trong một hệ thống xã hội, bao gồm các giai đoạn đổi mới, truyền thông, thời gian và hệ thống xã hội [DOI].
+*   **Quan điểm Dựa trên Nguồn lực (Resource-Based View - RBV):** Quan điểm này tập trung vào việc xác định và khai thác các nguồn lực và năng lực độc đáo của doanh nghiệp, bao gồm cả hệ thống thông tin, để tạo lợi thế cạnh tranh [RBV].
 
-Nghiên cứu định tính đóng vai trò quan trọng trong việc khám phá các hiện tượng xã hội và văn hóa trong lĩnh vực HTTT, thông qua các phương pháp như nghiên cứu hành động, nghiên cứu trường hợp và dân tộc học [12], [17]. Myers (1997) [12] chỉ ra rằng nghiên cứu định tính cho phép các nhà nghiên cứu hiểu sâu sắc về bối cảnh, ý nghĩa và trải nghiệm của người tham gia trong các tình huống HTTT cụ thể.
+Việc lựa chọn khung lý thuyết phù hợp phụ thuộc vào câu hỏi nghiên cứu, mục tiêu nghiên cứu và bối cảnh nghiên cứu. Khung lý thuyết không chỉ cung cấp cơ sở lý luận mà còn định hướng phương pháp nghiên cứu và diễn giải kết quả.
 
-Dữ liệu định tính có thể được thu thập từ nhiều nguồn khác nhau, bao gồm quan sát, phỏng vấn, tài liệu và ấn tượng của nhà nghiên cứu [12], [17]. Klein và Myers (1999) [17] nhấn mạnh rằng nghiên cứu định tính có thể được tiếp cận từ nhiều quan điểm triết học khác nhau, từ thực chứng đến diễn giải và phê phán, ảnh hưởng đến thiết kế nghiên cứu và quá trình thu thập dữ liệu.
+**3. Phương pháp Nghiên cứu Định lượng trong Hệ thống Thông tin**
 
-**2.5. Phương pháp Nghiên cứu Định lượng trong HTTT**
+Nghiên cứu định lượng là một phương pháp luận khoa học xã hội, tập trung vào việc thu thập và phân tích dữ liệu số để mô tả, giải thích, dự đoán hoặc kiểm soát các hiện tượng [18], [20]. Trong lĩnh vực HTTT, nghiên cứu định lượng được sử dụng rộng rãi để kiểm tra các giả thuyết, đo lường các mối quan hệ và đánh giá hiệu quả của các hệ thống và công nghệ thông tin.
 
-Nghiên cứu định lượng sử dụng dữ liệu số và phân tích thống kê để kiểm tra các giả thuyết và thiết lập các mối quan hệ nhân quả trong lĩnh vực HTTT [18], [20]. Lim (2024) [18] giải thích rằng nghiên cứu định lượng nhằm mục đích hiểu các hiện tượng xã hội thông qua các biến có thể đo lường và dữ liệu có thể định lượng, cho phép phân tích khách quan và khái quát hóa kết quả.
+**3.1. Các Phương pháp Nghiên cứu Định lượng Cụ thể**
 
-Các phương pháp định lượng phổ biến trong HTTT bao gồm khảo sát, thí nghiệm và phân tích dữ liệu thứ cấp. Simplilearn.com [20] chỉ ra rằng các kỹ thuật thống kê, mô hình toán học và thuật toán tính toán đóng vai trò trung tâm trong phân tích dữ liệu định lượng, giúp trích xuất các mô hình, vấn đề, dự đoán và quy định (4Ps) để định hình các chiến lược hiệu quả.
+*   **Khảo sát (Surveys):** Khảo sát là một phương pháp phổ biến để thu thập dữ liệu từ một mẫu lớn người tham gia thông qua bảng câu hỏi có cấu trúc [3]. Khảo sát có thể được thực hiện trực tuyến, qua điện thoại hoặc trực tiếp. Dữ liệu khảo sát thường được phân tích thống kê để mô tả đặc điểm của mẫu, xác định mối quan hệ giữa các biến số và tổng quát hóa kết quả cho quần thể lớn hơn.
+    *   **Ứng dụng:** Đánh giá mức độ chấp nhận công nghệ mới, đo lường sự hài lòng của người dùng với hệ thống thông tin, khảo sát ý kiến về các vấn đề liên quan đến HTTT.
+    *   **Ưu điểm:** Thu thập dữ liệu từ số lượng lớn người tham gia, chi phí tương đối thấp, dễ dàng tổng quát hóa kết quả.
+    *   **Hạn chế:** Khó thu thập dữ liệu sâu sắc, có thể gặp phải thiên vị phản hồi, câu hỏi khảo sát cần được thiết kế cẩn thận để đảm bảo tính hợp lệ và độ tin cậy.
+*   **Thí nghiệm (Experiments):** Thí nghiệm là một phương pháp nghiên cứu trong đó nhà nghiên cứu thao túng một hoặc nhiều biến độc lập để xem xét ảnh hưởng của chúng đến biến phụ thuộc, đồng thời kiểm soát các biến ngoại sinh [1]. Thí nghiệm thường được thực hiện trong môi trường phòng thí nghiệm hoặc môi trường thực tế.
+    *   **Ứng dụng:** Đánh giá hiệu quả của các giao diện người dùng khác nhau, so sánh hiệu suất của các thuật toán khác nhau, kiểm tra tác động của các yếu tố thiết kế hệ thống đến hành vi người dùng.
+    *   **Ưu điểm:** Thiết lập mối quan hệ nhân quả mạnh mẽ, kiểm soát cao các biến số, khả năng tái lập cao.
+    *   **Hạn chế:** Có thể không phản ánh đầy đủ môi trường thực tế, có thể gặp phải các vấn đề đạo đức khi thao túng biến số, kích thước mẫu thường nhỏ hơn so với khảo sát.
+*   **Mô hình Thống kê (Statistical Modeling):** Mô hình thống kê sử dụng các kỹ thuật thống kê để phân tích dữ liệu và xây dựng các mô hình toán học để mô tả và dự đoán các hiện tượng [18]. Các kỹ thuật mô hình thống kê phổ biến trong nghiên cứu HTTT bao gồm hồi quy, phân tích phương sai, phân tích nhân tố và mô hình phương trình cấu trúc.
+    *   **Ứng dụng:** Phân tích các yếu tố ảnh hưởng đến sự chấp nhận công nghệ, dự đoán hành vi người dùng dựa trên dữ liệu lịch sử, xây dựng mô hình hiệu suất hệ thống.
+    *   **Ưu điểm:** Phân tích dữ liệu lớn, xác định các mối quan hệ phức tạp, dự đoán và mô phỏng các kịch bản khác nhau.
+    *   **Hạn chế:** Đòi hỏi kiến thức chuyên sâu về thống kê, mô hình có thể đơn giản hóa quá mức thực tế, chất lượng mô hình phụ thuộc vào chất lượng dữ liệu.
 
-**2.6. Các Khung Lý thuyết Nền tảng trong HTTT**
+**3.2. Ưu điểm và Hạn chế của Nghiên cứu Định lượng**
 
-Để định hướng phương pháp nghiên cứu và xây dựng nền tảng lý luận vững chắc, tài liệu này tích hợp các khung lý thuyết phổ biến và có ảnh hưởng trong lĩnh vực HTTT:
+**Ưu điểm:**
 
-*   **Mô hình Chấp nhận Công nghệ (TAM):** TAM, được phát triển bởi Davis (1989), là một trong những mô hình được sử dụng rộng rãi nhất để giải thích và dự đoán sự chấp nhận công nghệ của người dùng [1]. TAM cho rằng nhận thức về tính hữu ích (PU) và nhận thức về tính dễ sử dụng (PEOU) là hai yếu tố quyết định chính đến ý định sử dụng và hành vi sử dụng công nghệ.
-*   **Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT):** UTAUT, được giới thiệu bởi Venkatesh và cộng sự (2003), tích hợp các cấu trúc từ tám mô hình chấp nhận công nghệ khác nhau để cung cấp một khung toàn diện hơn [4]. UTAUT xác định bốn yếu tố quyết định chính: kỳ vọng hiệu suất, kỳ vọng nỗ lực, ảnh hưởng xã hội và các điều kiện tạo điều kiện, được điều chỉnh bởi các biến điều tiết như giới tính, tuổi tác, kinh nghiệm và tính tự nguyện sử dụng.
-*   **Mô hình Thành công Hệ thống Thông tin DeLone & McLean:** Mô hình DeLone & McLean (2003) cung cấp một khung đa chiều để đánh giá sự thành công của hệ thống thông tin [7]. Mô hình này bao gồm sáu chiều cạnh phụ thuộc lẫn nhau: chất lượng hệ thống, chất lượng thông tin, chất lượng dịch vụ, sử dụng, sự hài lòng của người dùng và lợi ích ròng.
-*   **Lý thuyết Hệ thống Xã hội - Kỹ thuật:** Lý thuyết này nhấn mạnh sự tương tác phức tạp giữa công nghệ, con người và tổ chức trong hệ thống thông tin [32]. Nó cho rằng hiệu quả của hệ thống thông tin không chỉ phụ thuộc vào yếu tố kỹ thuật mà còn vào yếu tố xã hội và tổ chức.
-*   **Lý thuyết Khuếch tán Đổi mới (DOI):** DOI, được phát triển bởi Rogers (1962), giải thích cách thức các đổi mới công nghệ được lan truyền và chấp nhận trong xã hội [34]. Lý thuyết này tập trung vào các yếu tố ảnh hưởng đến quá trình khuếch tán, như đặc điểm của đổi mới, kênh truyền thông, thời gian và hệ thống xã hội.
-*   **Quan điểm Dựa trên Nguồn lực (RBV):** RBV, được phát triển trong lĩnh vực quản lý chiến lược, cho rằng lợi thế cạnh tranh của doanh nghiệp xuất phát từ các nguồn lực và năng lực độc đáo và có giá trị [35]. Trong bối cảnh HTTT, RBV có thể được sử dụng để phân tích cách hệ thống thông tin có thể tạo ra lợi thế cạnh tranh cho doanh nghiệp.
+*   **Độ tin cậy cao:** Nghiên cứu định lượng thường có độ tin cậy cao do sử dụng các phương pháp đo lường khách quan và quy trình phân tích thống kê chuẩn hóa [1].
+*   **Khả năng tổng quát hóa:** Kết quả nghiên cứu định lượng có thể được tổng quát hóa cho quần thể lớn hơn nếu mẫu nghiên cứu đại diện cho quần thể đó [22], [23], [24], [25].
+*   **Thiết lập mối quan hệ nhân quả:** Thí nghiệm và các phương pháp định lượng khác có thể giúp thiết lập mối quan hệ nhân quả giữa các biến số [1].
+*   **Phân tích dữ liệu lớn:** Nghiên cứu định lượng có thể xử lý và phân tích dữ liệu lớn một cách hiệu quả, giúp phát hiện các xu hướng và mô hình phức tạp [18].
 
-**3. Phương pháp luận**
+**Hạn chế:**
 
-Tài liệu nghiên cứu này sử dụng phương pháp tổng hợp và phân tích tài liệu khoa học để xây dựng hướng dẫn nhập môn nghiên cứu khoa học HTTT. Phương pháp này bao gồm các bước sau:
+*   **Thiếu chiều sâu:** Nghiên cứu định lượng có thể bỏ qua chiều sâu và sự phong phú của các hiện tượng xã hội và hành vi con người do tập trung vào dữ liệu số và đo lường [17].
+*   **Khó nắm bắt bối cảnh:** Nghiên cứu định lượng thường tách rời hiện tượng nghiên cứu khỏi bối cảnh tự nhiên của nó, có thể dẫn đến việc bỏ qua các yếu tố bối cảnh quan trọng [19].
+*   **Thiên vị đo lường:** Các công cụ đo lường trong nghiên cứu định lượng có thể bị thiên vị, ảnh hưởng đến tính hợp lệ của kết quả [1].
+*   **Giả định đơn giản hóa:** Mô hình thống kê có thể đơn giản hóa quá mức thực tế phức tạp, dẫn đến các kết luận không chính xác [18].
 
-*   **Thu thập dữ liệu:** Tìm kiếm và thu thập các tài liệu khoa học liên quan đến phương pháp nghiên cứu HTTT, khung lý thuyết, nguồn dữ liệu và các vấn đề phương pháp luận. Các nguồn dữ liệu bao gồm các bài báo khoa học, sách chuyên khảo, kỷ yếu hội nghị và các tài liệu trực tuyến uy tín.
-*   **Phân tích dữ liệu:** Phân tích nội dung của các tài liệu thu thập được để xác định các chủ đề chính, khái niệm, phương pháp và khung lý thuyết quan trọng trong nghiên cứu HTTT. Phân tích so sánh được sử dụng để đối chiếu các quan điểm khác nhau về các mô hình nghiên cứu và phương pháp luận.
-*   **Tổng hợp dữ liệu:** Tổng hợp các kết quả phân tích để xây dựng một hướng dẫn toàn diện và có cấu trúc về nhập môn nghiên cứu khoa học HTTT. Hướng dẫn này được trình bày theo một lộ trình logic, từ cơ bản đến nâng cao, nhằm giúp người mới bắt đầu dễ dàng tiếp cận và áp dụng.
+**4. Phương pháp Nghiên cứu Định tính trong Hệ thống Thông tin**
 
-**Hạn chế của phương pháp:**
+Nghiên cứu định tính là một phương pháp luận khoa học xã hội, tập trung vào việc khám phá và hiểu sâu sắc các hiện tượng xã hội và hành vi con người trong bối cảnh tự nhiên của chúng [12], [17]. Trong lĩnh vực HTTT, nghiên cứu định tính được sử dụng để khám phá trải nghiệm người dùng, hiểu các yếu tố xã hội và tổ chức ảnh hưởng đến hệ thống thông tin, và phân tích các vấn đề phức tạp trong bối cảnh thực tế.
 
-Phương pháp tổng hợp và phân tích tài liệu khoa học có một số hạn chế. Thứ nhất, phạm vi của tài liệu có thể bị giới hạn bởi các tài liệu có sẵn và khả năng tiếp cận của nhà nghiên cứu. Thứ hai, việc phân tích và tổng hợp dữ liệu có thể mang tính chủ quan, phụ thuộc vào kinh nghiệm và quan điểm của nhà nghiên cứu. Tuy nhiên, để giảm thiểu những hạn chế này, tài liệu đã cố gắng sử dụng các nguồn tài liệu đa dạng và uy tín, đồng thời áp dụng các phương pháp phân tích khách quan và có hệ thống.
+**4.1. Các Phương pháp Nghiên cứu Định tính Cụ thể**
 
-**Vấn đề đạo đức:**
+*   **Nghiên cứu Tình huống (Case Study):** Nghiên cứu tình huống là một phương pháp nghiên cứu chuyên sâu về một hoặc một số trường hợp cụ thể (cá nhân, nhóm, tổ chức, sự kiện) trong bối cảnh thực tế của chúng [12]. Nghiên cứu tình huống sử dụng nhiều nguồn dữ liệu khác nhau, bao gồm phỏng vấn, quan sát, tài liệu và hiện vật, để cung cấp một cái nhìn toàn diện và chi tiết về trường hợp nghiên cứu.
+    *   **Ứng dụng:** Nghiên cứu việc triển khai hệ thống ERP trong một doanh nghiệp cụ thể, phân tích tác động của mạng xã hội đến hành vi người dùng trong một cộng đồng trực tuyến, khám phá các yếu tố thành công và thất bại của các dự án HTTT.
+    *   **Ưu điểm:** Hiểu sâu sắc các hiện tượng phức tạp trong bối cảnh thực tế, khám phá các khía cạnh đa dạng của một vấn đề, tạo ra các lý thuyết và giả thuyết mới.
+    *   **Hạn chế:** Khó tổng quát hóa kết quả cho các trường hợp khác, có thể bị ảnh hưởng bởi thiên vị của nhà nghiên cứu, đòi hỏi thời gian và nguồn lực đáng kể.
+*   **Phỏng vấn Chuyên sâu (In-depth Interviews):** Phỏng vấn chuyên sâu là một phương pháp thu thập dữ liệu định tính thông qua các cuộc trò chuyện có cấu trúc hoặc bán cấu trúc với người tham gia [17]. Phỏng vấn chuyên sâu cho phép nhà nghiên cứu khám phá quan điểm, kinh nghiệm và ý kiến của người tham gia về một chủ đề cụ thể một cách chi tiết và sâu sắc.
+    *   **Ứng dụng:** Tìm hiểu trải nghiệm người dùng với một hệ thống thông tin mới, khám phá quan điểm của các chuyên gia về các vấn đề HTTT, thu thập thông tin về quy trình làm việc và thực tiễn sử dụng công nghệ trong tổ chức.
+    *   **Ưu điểm:** Thu thập dữ liệu phong phú và chi tiết về quan điểm và kinh nghiệm của người tham gia, linh hoạt và thích ứng với từng người tham gia, tạo ra mối quan hệ tin tưởng giữa nhà nghiên cứu và người tham gia.
+    *   **Hạn chế:** Tốn thời gian và nguồn lực, khó phân tích dữ liệu một cách hệ thống, có thể bị ảnh hưởng bởi thiên vị của người phỏng vấn và người tham gia.
+*   **Quan sát Thực địa (Field Observation):** Quan sát thực địa là một phương pháp thu thập dữ liệu định tính bằng cách quan sát và ghi chép hành vi và tương tác của con người trong môi trường tự nhiên của họ [12]. Quan sát thực địa có thể là quan sát tham gia (nhà nghiên cứu tham gia vào hoạt động của nhóm nghiên cứu) hoặc quan sát không tham gia (nhà nghiên cứu chỉ quan sát từ bên ngoài).
+    *   **Ứng dụng:** Nghiên cứu cách người dùng tương tác với hệ thống thông tin trong môi trường làm việc thực tế, quan sát hành vi của khách hàng trong môi trường thương mại điện tử, phân tích quy trình làm việc và sự phối hợp trong nhóm dự án HTTT.
+    *   **Ưu điểm:** Thu thập dữ liệu trực tiếp về hành vi thực tế, hiểu bối cảnh tự nhiên của hiện tượng nghiên cứu, khám phá các khía cạnh tiềm ẩn của hành vi.
+    *   **Hạn chế:** Tốn thời gian và nguồn lực, có thể bị ảnh hưởng bởi sự hiện diện của nhà nghiên cứu (hiệu ứng Hawthorne), khó kiểm soát các biến số, dữ liệu quan sát có thể mang tính chủ quan.
 
-Trong quá trình nghiên cứu và xây dựng tài liệu này, các vấn đề đạo đức được đặt lên hàng đầu. Tài liệu tuân thủ nghiêm ngặt các nguyên tắc về trích dẫn nguồn tài liệu, tránh đạo văn và đảm bảo tính trung thực và khách quan trong trình bày thông tin.
+**4.2. Ưu điểm và Hạn chế của Nghiên cứu Định tính**
 
-**4. Kết quả Nghiên cứu**
+**Ưu điểm:**
 
-**4.1. Phương pháp Nghiên cứu Ưu tiên trong HTTT**
+*   **Chiều sâu và sự phong phú:** Nghiên cứu định tính cung cấp chiều sâu và sự phong phú trong việc hiểu các hiện tượng xã hội và hành vi con người [17].
+*   **Hiểu bối cảnh:** Nghiên cứu định tính tập trung vào việc hiểu hiện tượng nghiên cứu trong bối cảnh tự nhiên của nó, giúp nắm bắt các yếu tố bối cảnh quan trọng [19].
+*   **Khám phá và tạo ra lý thuyết:** Nghiên cứu định tính phù hợp để khám phá các vấn đề mới và tạo ra các lý thuyết và giả thuyết mới [12].
+*   **Linh hoạt và thích ứng:** Nghiên cứu định tính linh hoạt và có thể thích ứng với các tình huống và người tham gia khác nhau [17].
 
-Tài liệu hướng dẫn này ưu tiên một cách tiếp cận cân bằng, bao gồm ba phương pháp nghiên cứu chính thường được sử dụng trong HTTT:
+**Hạn chế:**
 
-*   **Nghiên cứu định lượng:**
-    *   **Phương pháp:** Khảo sát, thí nghiệm, mô hình thống kê [18], [20].
-    *   **Ứng dụng:** Đánh giá mức độ chấp nhận công nghệ, phân tích hành vi người dùng, đo lường hiệu suất hệ thống [1].
-    *   **Ưu điểm:** Khả năng khái quát hóa cao, độ tin cậy cao, phân tích khách quan [18].
-    *   **Hạn chế:** Có thể đơn giản hóa quá mức các hiện tượng phức tạp, bỏ qua bối cảnh và ý nghĩa [17].
-*   **Nghiên cứu định tính:**
-    *   **Phương pháp:** Nghiên cứu tình huống, phỏng vấn chuyên sâu, quan sát thực địa [12], [17].
-    *   **Ứng dụng:** Tìm hiểu trải nghiệm người dùng, khám phá các yếu tố xã hội ảnh hưởng đến hệ thống thông tin, phân tích hành vi tổ chức [12].
-    *   **Ưu điểm:** Độ sâu phân tích cao, khám phá bối cảnh và ý nghĩa, linh hoạt [17].
-    *   **Hạn chế:** Khả năng khái quát hóa hạn chế, độ tin cậy có thể thấp hơn, phân tích có thể chủ quan [18].
-*   **Nghiên cứu khoa học thiết kế (DSR):**
-    *   **Phương pháp:** Phát triển và đánh giá các giải pháp công nghệ, tạo ra các mô hình lý thuyết mới [2], [5].
-    *   **Ứng dụng:** Thiết kế hệ thống phần mềm, phát triển thuật toán mới, tối ưu hóa quy trình kinh doanh bằng công nghệ [3].
-    *   **Ưu điểm:** Tạo ra các giải pháp thực tiễn, đóng góp vào tri thức khoa học, đổi mới [5].
-    *   **Hạn chế:** Đòi hỏi kiến thức chuyên môn sâu, quá trình nghiên cứu có thể phức tạp và tốn thời gian [2].
+*   **Độ tin cậy thấp hơn:** Nghiên cứu định tính thường có độ tin cậy thấp hơn so với nghiên cứu định lượng do tính chủ quan và khó chuẩn hóa của phương pháp [1].
+*   **Khó tổng quát hóa:** Kết quả nghiên cứu định tính khó tổng quát hóa cho quần thể lớn hơn do mẫu nghiên cứu thường nhỏ và không đại diện [22], [23], [24], [25].
+*   **Thiên vị chủ quan:** Nghiên cứu định tính có thể bị ảnh hưởng bởi thiên vị của nhà nghiên cứu trong quá trình thu thập và phân tích dữ liệu [5].
+*   **Tốn thời gian và nguồn lực:** Nghiên cứu định tính thường tốn thời gian và nguồn lực hơn so với nghiên cứu định lượng, đặc biệt là các phương pháp như nghiên cứu tình huống và quan sát thực địa [17].
 
-**4.2. Khung Lý thuyết Tích hợp trong HTTT**
+**5. Phương pháp Nghiên cứu Khoa học Thiết kế trong Hệ thống Thông tin**
 
-Tài liệu tích hợp các khung lý thuyết phổ biến sau để định hướng phương pháp nghiên cứu:
+Nghiên cứu khoa học thiết kế (Design Science Research - DSR) là một phương pháp luận giải quyết vấn đề, tập trung vào việc tạo ra và đánh giá các hiện vật (artifacts) sáng tạo để giải quyết các vấn đề thực tiễn và mở rộng kiến thức trong lĩnh vực HTTT [2], [5]. DSR khác biệt với nghiên cứu định lượng và định tính ở chỗ nó không chỉ mô tả hoặc giải thích các hiện tượng hiện có, mà còn chủ động tạo ra các giải pháp mới.
 
-*   **Mô hình Chấp nhận Công nghệ (TAM):** Phân tích sự chấp nhận hệ thống thông tin của người dùng dựa trên nhận thức về tính hữu ích và tính dễ sử dụng [1].
-*   **Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT):** Mở rộng TAM bằng cách bổ sung các yếu tố xã hội và hành vi, cung cấp một khung toàn diện hơn để hiểu sự chấp nhận công nghệ [4].
-*   **Mô hình Thành công Hệ thống Thông tin DeLone & McLean:** Đánh giá mức độ hiệu quả của một hệ thống thông tin dựa trên sáu chiều cạnh: chất lượng hệ thống, chất lượng thông tin, chất lượng dịch vụ, sử dụng, sự hài lòng của người dùng và lợi ích ròng [7].
-*   **Lý thuyết Hệ thống Xã hội - Kỹ thuật:** Phân tích sự tương tác giữa công nghệ, con người và tổ chức trong hệ thống thông tin, nhấn mạnh tính phức tạp và đa chiều của hệ thống [32].
-*   **Lý thuyết Khuếch tán Đổi mới (DOI):** Nghiên cứu cách công nghệ được triển khai và phổ biến trong doanh nghiệp và xã hội, tập trung vào các yếu tố ảnh hưởng đến quá trình khuếch tán [34].
-*   **Quan điểm Dựa trên Nguồn lực (RBV):** Xác định lợi thế cạnh tranh của doanh nghiệp thông qua hệ thống thông tin, xem HTTT như một nguồn lực chiến lược [35].
+**5.1. Quy trình Nghiên cứu Khoa học Thiết kế**
 
-**4.3. Nguồn Dữ liệu Minh họa Phương pháp Nghiên cứu HTTT**
+Quy trình DSR thường bao gồm sáu bước chính [2]:
 
-Tài liệu hướng dẫn sử dụng các nguồn dữ liệu thực tế sau để minh họa các phương pháp nghiên cứu trong HTTT:
+1.  **Xác định Vấn đề và Động viên (Problem Identification and Motivation):** Bước đầu tiên là xác định rõ vấn đề cần giải quyết và động viên cho sự cần thiết của giải pháp. Vấn đề nên có ý nghĩa thực tiễn và học thuật, và động viên nên giải thích tại sao giải pháp là cần thiết và có giá trị.
+2.  **Xác định Mục tiêu cho Giải pháp (Define Objectives for a Solution):** Bước này xác định các mục tiêu cụ thể mà giải pháp thiết kế cần đạt được. Mục tiêu nên được đo lường, khả thi, phù hợp và có thời hạn (SMART).
+3.  **Thiết kế và Phát triển (Design and Development):** Bước này là trung tâm của DSR, bao gồm việc tạo ra hiện vật thiết kế. Hiện vật có thể là một hệ thống, mô hình, phương pháp, thuật toán, hoặc bất kỳ giải pháp công nghệ nào khác. Quá trình thiết kế và phát triển thường lặp đi lặp lại, với các phiên bản hiện vật được xây dựng và cải tiến dần dần.
+4.  **Trình diễn (Demonstration):** Bước này trình diễn khả năng của hiện vật thiết kế để giải quyết vấn đề đã xác định. Trình diễn có thể được thực hiện thông qua các trường hợp thử nghiệm, mô phỏng, hoặc ứng dụng thực tế.
+5.  **Đánh giá (Evaluation):** Bước này đánh giá mức độ hiện vật thiết kế đáp ứng các mục tiêu đã xác định và giải quyết vấn đề một cách hiệu quả. Đánh giá có thể sử dụng các phương pháp định lượng, định tính hoặc hỗn hợp, và có thể bao gồm đánh giá kỹ thuật, đánh giá người dùng và đánh giá kinh tế.
+6.  **Truyền thông (Communication):** Bước cuối cùng là truyền thông kết quả nghiên cứu cho cộng đồng học thuật và thực tiễn. Truyền thông có thể thông qua các bài báo khoa học, hội nghị, báo cáo kỹ thuật và các hình thức khác.
 
-*   **Dữ liệu công khai:**
-    *   **Kaggle, UCI Machine Learning Repository:** Dữ liệu về trí tuệ nhân tạo, bảo mật hệ thống, phân tích doanh nghiệp [2].
-    *   **World Bank, OECD, IMF:** Dữ liệu về nền kinh tế số, xu hướng chuyển đổi số [2].
-    *   **APIs từ mạng xã hội (Twitter, LinkedIn, Facebook):** Nghiên cứu hành vi người dùng, phân tích xu hướng công nghệ [3].
-    *   **Harvard Dataverse, Open Science Framework (OSF):** Tài nguyên nghiên cứu mở trong lĩnh vực HTTT [5].
-*   **Dữ liệu từ doanh nghiệp và tổ chức:**
-    *   **Dữ liệu từ hệ thống ERP, CRM, BI:** Nghiên cứu về tối ưu hóa quy trình doanh nghiệp [6].
-    *   **Dữ liệu y tế (EHR - Electronic Health Records):** Nghiên cứu bảo mật và quyền riêng tư trong HTTT y tế [7].
-    *   **Dữ liệu thương mại điện tử:** Phân tích hành vi khách hàng, xây dựng hệ thống gợi ý sản phẩm [8].
-*   **Dữ liệu từ khảo sát và thí nghiệm:**
-    *   **Khảo sát từ Qualtrics, SurveyMonkey:** Thu thập ý kiến người dùng về hệ thống thông tin [9].
-    *   **Dữ liệu từ thí nghiệm mô phỏng:** Đánh giá hiệu suất hệ thống, kiểm tra an toàn thông tin [10].
+**5.2. Ứng dụng của Nghiên cứu Khoa học Thiết kế trong Hệ thống Thông tin**
 
-**4.4. Phân tích So sánh các Mô hình Nghiên cứu HTTT**
+DSR được ứng dụng rộng rãi trong lĩnh vực HTTT để giải quyết các vấn đề thực tiễn và tạo ra các giải pháp công nghệ mới [5]. Một số ví dụ về ứng dụng DSR trong HTTT bao gồm:
 
-Tài liệu cung cấp phân tích so sánh giữa các mô hình nghiên cứu khác nhau trong HTTT:
+*   **Thiết kế Hệ thống Phần mềm:** Phát triển các hệ thống phần mềm mới để hỗ trợ các quy trình kinh doanh, cải thiện trải nghiệm người dùng hoặc giải quyết các vấn đề cụ thể trong tổ chức.
+*   **Phát triển Thuật toán Mới:** Tạo ra các thuật toán mới để tối ưu hóa hiệu suất hệ thống, cải thiện khả năng phân tích dữ liệu hoặc tăng cường an ninh thông tin.
+*   **Tối ưu hóa Quy trình Kinh doanh bằng Công nghệ:** Thiết kế các giải pháp công nghệ để tự động hóa, cải thiện hoặc tái cấu trúc các quy trình kinh doanh, nhằm tăng hiệu quả và năng suất.
+*   **Phát triển Mô hình Lý thuyết Mới:** Tạo ra các mô hình lý thuyết mới để giải thích các hiện tượng HTTT phức tạp hoặc cung cấp cơ sở lý luận cho việc thiết kế và đánh giá các giải pháp công nghệ.
 
-| Khía cạnh so sánh        | Chủ nghĩa thực chứng (Positivist) | Chủ nghĩa diễn giải (Interpretivist) | Chủ nghĩa phản biện (Critical Research) |
-| :----------------------- | :--------------------------------- | :----------------------------------- | :------------------------------------ |
-| **Bản thể luận**         | Thực tại khách quan, duy nhất       | Nhiều thực tại được xây dựng xã hội   | Thực tại bị chi phối bởi quyền lực và bất bình đẳng |
-| **Nhận thức luận**       | Kiến thức khách quan, có thể đo lường | Kiến thức chủ quan, được diễn giải    | Kiến thức nhằm giải phóng và thay đổi xã hội |
-| **Phương pháp luận**     | Định lượng, kiểm định giả thuyết     | Định tính, khám phá ý nghĩa          | Hỗn hợp, điều tra hành động, tham gia  |
-| **Mục tiêu nghiên cứu** | Giải thích và dự đoán              | Hiểu và diễn giải                   | Phê phán và thay đổi xã hội          |
-| **Ứng dụng trong HTTT** | Kiểm tra các yếu tố chấp nhận công nghệ | Khám phá trải nghiệm người dùng       | Phân tích cấu trúc quyền lực trong HTTT |
+**5.3. Ưu điểm và Hạn chế của Nghiên cứu Khoa học Thiết kế**
 
-| Khía cạnh so sánh        | Nghiên cứu định lượng | Nghiên cứu định tính | Nghiên cứu hỗn hợp | Khoa học thiết kế | Nghiên cứu thực nghiệm |
-| :----------------------- | :------------------- | :------------------- | :----------------- | :--------------- | :------------------- |
-| **Mục tiêu**             | Kiểm định giả thuyết | Khám phá ý nghĩa     | Kết hợp cả hai     | Phát triển giải pháp | Phân tích hệ thống hiện có |
-| **Độ khái quát hóa**     | Cao                  | Thấp                  | Trung bình          | Thấp             | Cao                  |
-| **Độ sâu phân tích**     | Thấp                  | Cao                  | Trung bình          | Trung bình       | Thấp                  |
-| **Khả năng tái lập**     | Cao                  | Thấp                  | Trung bình          | Thấp             | Cao                  |
-| **Ứng dụng trong HTTT** | Đo lường hiệu suất   | Tìm hiểu trải nghiệm | Đánh giá toàn diện | Thiết kế hệ thống | Kiểm tra mô hình lý thuyết |
+**Ưu điểm:**
 
-**4.5. Phạm vi và Giới hạn của Tài liệu**
+*   **Giải quyết vấn đề thực tiễn:** DSR tập trung vào việc giải quyết các vấn đề thực tiễn và tạo ra các giải pháp có giá trị ứng dụng cao [2].
+*   **Đóng góp cho kiến thức:** DSR không chỉ tạo ra các giải pháp mà còn mở rộng kiến thức trong lĩnh vực HTTT thông qua việc phát triển và đánh giá các hiện vật thiết kế [5].
+*   **Sáng tạo và đổi mới:** DSR khuyến khích sự sáng tạo và đổi mới trong việc thiết kế và phát triển các giải pháp công nghệ mới [2].
+*   **Tính thực tiễn cao:** Kết quả của DSR thường có tính thực tiễn cao và có thể được ứng dụng trực tiếp trong các tổ chức và doanh nghiệp [5].
 
-Tài liệu tập trung vào nghiên cứu ứng dụng trong HTTT, với trọng tâm vào 5 phân ngành chính:
+**Hạn chế:**
 
-1.  **Hệ thống Thông tin Doanh nghiệp (ERP, CRM, BI):** Phân tích tác động của công nghệ lên hiệu suất doanh nghiệp, tối ưu hóa quy trình kinh doanh [6].
-2.  **Tương tác Người-Máy (HCI) & UX trong HTTT:** Đánh giá trải nghiệm người dùng với hệ thống phần mềm, thiết kế giao diện người dùng thân thiện [9].
-3.  **An toàn thông tin & Quyền riêng tư:** Bảo mật dữ liệu, phòng chống tấn công mạng, bảo vệ thông tin cá nhân trong hệ thống thông tin [7].
-4.  **Phân tích Dữ liệu & Trí tuệ Doanh nghiệp:** Ứng dụng khoa học dữ liệu vào phân tích HTTT, khai thác thông tin giá trị từ dữ liệu [8].
-5.  **Công nghệ mới trong HTTT (AI, Blockchain, IoT):** Nghiên cứu ảnh hưởng của các công nghệ đột phá, khám phá tiềm năng ứng dụng và thách thức [30], [32].
+*   **Độ tin cậy và tính hợp lệ:** Đánh giá độ tin cậy và tính hợp lệ của hiện vật thiết kế có thể là một thách thức, đặc biệt là đối với các hiện vật phức tạp [8].
+*   **Khó tổng quát hóa:** Kết quả của DSR có thể khó tổng quát hóa cho các bối cảnh khác do tính đặc thù của vấn đề và giải pháp thiết kế [22], [23], [24], [25].
+*   **Tốn thời gian và nguồn lực:** DSR thường tốn thời gian và nguồn lực đáng kể, đặc biệt là quá trình thiết kế, phát triển và đánh giá hiện vật [5].
+*   **Đòi hỏi kiến thức đa ngành:** DSR đòi hỏi nhà nghiên cứu có kiến thức đa ngành, bao gồm cả kiến thức về công nghệ, kinh doanh và phương pháp nghiên cứu [2].
 
-Tài liệu này giới hạn ở việc cung cấp một cái nhìn tổng quan nhập môn về nghiên cứu khoa học HTTT. Các chủ đề chuyên sâu hơn trong từng phân ngành hoặc phương pháp nghiên cứu cụ thể sẽ cần được khám phá trong các tài liệu chuyên biệt khác.
+**6. Khung Lý thuyết Nền tảng trong Nghiên cứu Hệ thống Thông tin**
 
-**5. Thảo luận**
+Khung lý thuyết đóng vai trò như kim chỉ nam, định hướng và cung cấp nền tảng lý luận vững chắc cho các nghiên cứu Hệ thống Thông tin (HTTT) [10], [15], [16], [17]. Việc lựa chọn và áp dụng khung lý thuyết phù hợp không chỉ giúp nhà nghiên cứu xây dựng thiết kế nghiên cứu chặt chẽ, mà còn đảm bảo tính hợp lệ và giá trị của kết quả nghiên cứu.
 
-Kết quả nghiên cứu cho thấy rằng việc nhập môn nghiên cứu khoa học HTTT đòi hỏi người mới bắt đầu phải nắm vững một loạt kiến thức và kỹ năng, bao gồm hiểu biết về các phương pháp nghiên cứu khác nhau, khung lý thuyết nền tảng, nguồn dữ liệu phù hợp và các vấn đề phương pháp luận quan trọng. Tài liệu hướng dẫn này đã cung cấp một lộ trình có cấu trúc và toàn diện, giúp người đọc từng bước tiếp cận và làm chủ lĩnh vực nghiên cứu HTTT.
+**6.1. Mô hình Chấp nhận Công nghệ (Technology Acceptance Model - TAM)**
 
-**Ý nghĩa lý thuyết:**
+Mô hình Chấp nhận Công nghệ (TAM) là một trong những khung lý thuyết được sử dụng rộng rãi nhất trong nghiên cứu HTTT, đặc biệt trong lĩnh vực chấp nhận và sử dụng công nghệ [10]. TAM, được phát triển dựa trên Lý thuyết Hành động Hợp lý (Theory of Reasoned Action - TRA) và Lý thuyết Hành vi Dự định (Theory of Planned Behavior - TPB), tập trung vào hai yếu tố chính quyết định sự chấp nhận công nghệ của người dùng:
 
-Tài liệu này đóng góp vào việc hệ thống hóa kiến thức về phương pháp luận nghiên cứu HTTT, cung cấp một khung tham chiếu hữu ích cho người mới bắt đầu. Việc tích hợp các khung lý thuyết nền tảng và phân tích so sánh các mô hình nghiên cứu khác nhau giúp người đọc hiểu rõ hơn về bản chất đa dạng và phức tạp của nghiên cứu HTTT.
+*   **Nhận thức về Tính hữu ích (Perceived Usefulness - PU):** Mức độ người dùng tin rằng việc sử dụng một công nghệ cụ thể sẽ cải thiện hiệu suất công việc của họ.
+*   **Nhận thức về Tính dễ sử dụng (Perceived Ease of Use - PEOU):** Mức độ người dùng tin rằng việc sử dụng một công nghệ cụ thể sẽ không đòi hỏi nhiều nỗ lực.
 
-**Ý nghĩa thực tiễn:**
+TAM cho rằng PU và PEOU ảnh hưởng trực tiếp đến thái độ của người dùng đối với công nghệ (Attitude toward Using - ATU), và ATU cùng với PU ảnh hưởng đến ý định sử dụng công nghệ (Behavioral Intention to Use - BI). Cuối cùng, BI quyết định hành vi sử dụng thực tế của người dùng (Actual System Use - ASU).
 
-Tài liệu này có ý nghĩa thực tiễn lớn trong việc đào tạo và hướng dẫn người mới bắt đầu trong lĩnh vực nghiên cứu HTTT. Hướng dẫn này cung cấp một nguồn tài liệu tham khảo toàn diện, giúp người học tiết kiệm thời gian và công sức trong việc tìm hiểu và tiếp cận nghiên cứu khoa học HTTT. Nó cũng có thể được sử dụng như một tài liệu giảng dạy trong các khóa học nhập môn nghiên cứu HTTT.
+**Ứng dụng của TAM trong Nghiên cứu HTTT:**
 
-**Hạn chế và hướng nghiên cứu tiếp theo:**
+*   **Dự đoán sự chấp nhận công nghệ mới:** TAM được sử dụng để dự đoán khả năng người dùng chấp nhận và sử dụng các công nghệ mới như hệ thống ERP, CRM, ứng dụng di động, và các công nghệ web.
+*   **Đánh giá giao diện người dùng:** TAM có thể được sử dụng để đánh giá tính hữu ích và dễ sử dụng của các giao diện người dùng khác nhau, từ đó cải thiện thiết kế giao diện.
+*   **Nghiên cứu về thương mại điện tử:** TAM được áp dụng để nghiên cứu sự chấp nhận và sử dụng các nền tảng thương mại điện tử, dịch vụ trực tuyến và các ứng dụng mua sắm trực tuyến.
 
-Mặc dù tài liệu đã cố gắng cung cấp một cái nhìn toàn diện, vẫn còn một số hạn chế cần được khắc phục trong các nghiên cứu tiếp theo. Thứ nhất, tài liệu tập trung chủ yếu vào các phương pháp nghiên cứu và khung lý thuyết phổ biến, chưa đi sâu vào các phương pháp và khung lý thuyết chuyên biệt hơn. Thứ hai, tài liệu chưa đề cập đến các vấn đề đạo đức và pháp lý chi tiết hơn trong nghiên cứu HTTT, đặc biệt là trong bối cảnh dữ liệu lớn và trí tuệ nhân tạo.
+**6.2. Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (Unified Theory of Acceptance and Use of Technology - UTAUT)**
 
-Hướng nghiên cứu tiếp theo có thể tập trung vào việc phát triển các tài liệu hướng dẫn chuyên sâu hơn cho từng phân ngành HTTT cụ thể, hoặc khám phá các phương pháp nghiên cứu mới nổi và các khung lý thuyết tiên tiến trong lĩnh vực này. Nghiên cứu cũng có thể tập trung vào việc xây dựng các bộ công cụ và tài liệu hỗ trợ thực hành nghiên cứu HTTT, giúp người mới bắt đầu áp dụng kiến thức vào thực tế một cách hiệu quả hơn.
+Lý thuyết Thống nhất về Chấp nhận và Sử dụng Công nghệ (UTAUT) là một khung lý thuyết toàn diện hơn, được phát triển để tích hợp và mở rộng các mô hình chấp nhận công nghệ trước đó, bao gồm TAM, TPB, và Mô hình Khuếch tán Đổi mới [16]. UTAUT xác định bốn yếu tố quyết định chính của ý định sử dụng công nghệ và hành vi sử dụng:
 
-**6. Kết luận**
+*   **Kỳ vọng Hiệu suất (Performance Expectancy - PE):** Mức độ người dùng tin rằng việc sử dụng công nghệ sẽ giúp họ đạt được hiệu suất công việc tốt hơn. Tương tự như PU trong TAM.
+*   **Kỳ vọng Nỗ lực (Effort Expectancy - EE):** Mức độ dễ dàng mà người dùng cảm nhận được khi sử dụng công nghệ. Tương tự như PEOU trong TAM.
+*   **Ảnh hưởng Xã hội (Social Influence - SI):** Mức độ người dùng cảm nhận được rằng những người quan trọng đối với họ (ví dụ: đồng nghiệp, cấp trên, bạn bè) tin rằng họ nên sử dụng công nghệ.
+*   **Các Điều kiện Tạo điều kiện (Facilitating Conditions - FC):** Mức độ người dùng tin rằng cơ sở hạ tầng kỹ thuật và tổ chức hỗ trợ việc sử dụng công nghệ.
 
-Tài liệu nghiên cứu này đã cung cấp một hướng dẫn nhập môn toàn diện và từng bước về nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin. Tài liệu đã trình bày một cách có hệ thống các phương pháp nghiên cứu ưu tiên, khung lý thuyết tích hợp, nguồn dữ liệu minh họa, phân tích so sánh các mô hình nghiên cứu và phạm vi giới hạn của tài liệu. Kết quả nghiên cứu cho thấy rằng việc nhập môn nghiên cứu khoa học HTTT đòi hỏi sự chuẩn bị kỹ lưỡng về kiến thức và kỹ năng, nhưng với một lộ trình rõ ràng và tài liệu hướng dẫn phù hợp, người mới bắt đầu hoàn toàn có thể thành công trong lĩnh vực này. Tài liệu này hy vọng sẽ đóng góp vào việc nâng cao chất lượng và số lượng nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin, góp phần thúc đẩy sự phát triển của ngành công nghiệp HTTT và xã hội số.
+UTAUT cũng đưa ra bốn yếu tố điều tiết (moderating factors) ảnh hưởng đến mối quan hệ giữa các yếu tố quyết định và ý định sử dụng/hành vi sử dụng: Giới tính, Tuổi tác, Kinh nghiệm và Tính tự nguyện sử dụng.
 
-**7. Tài liệu tham khảo**
+**Ứng dụng của UTAUT trong Nghiên cứu HTTT:**
+
+*   **Nghiên cứu chấp nhận công nghệ trong tổ chức:** UTAUT được sử dụng rộng rãi để nghiên cứu sự chấp nhận và sử dụng các hệ thống thông tin trong môi trường tổ chức, như hệ thống ERP, CRM, hệ thống quản lý tri thức và các công cụ cộng tác trực tuyến.
+*   **Nghiên cứu về chính phủ điện tử:** UTAUT được áp dụng để nghiên cứu sự chấp nhận và sử dụng các dịch vụ chính phủ điện tử, cổng thông tin công và các ứng dụng trực tuyến của chính phủ.
+*   **Nghiên cứu về y tế điện tử:** UTAUT được sử dụng để nghiên cứu sự chấp nhận và sử dụng các hệ thống y tế điện tử, hồ sơ bệnh án điện tử, ứng dụng y tế di động và các công nghệ y tế từ xa.
+
+**6.3. Mô hình Thành công Hệ thống Thông tin DeLone & McLean IS Success Model**
+
+Mô hình Thành công Hệ thống Thông tin DeLone & McLean IS Success Model là một khung lý thuyết toàn diện để đánh giá sự thành công của hệ thống thông tin [17]. Mô hình này, được phát triển bởi William DeLone và Ephraim McLean, đã trải qua nhiều lần cập nhật và được sử dụng rộng rãi trong nghiên cứu HTTT. Mô hình D&M IS Success Model (cập nhật năm 2003) bao gồm sáu chiều cạnh phụ thuộc lẫn nhau của sự thành công của hệ thống thông tin:
+
+*   **Chất lượng Hệ thống (System Quality):** Các đặc tính kỹ thuật của hệ thống thông tin, như tính dễ sử dụng, tính khả dụng, độ tin cậy, tính linh hoạt và khả năng đáp ứng.
+*   **Chất lượng Thông tin (Information Quality):** Chất lượng của thông tin được tạo ra bởi hệ thống, bao gồm tính chính xác, đầy đủ, kịp thời, phù hợp và dễ hiểu.
+*   **Chất lượng Dịch vụ (Service Quality):** Chất lượng của dịch vụ hỗ trợ được cung cấp cho người dùng hệ thống, bao gồm tính đáp ứng, năng lực, sự đồng cảm và độ tin cậy của nhà cung cấp dịch vụ.
+*   **Sử dụng (Use):** Mức độ và cách thức người dùng sử dụng hệ thống thông tin.
+*   **Sự hài lòng của Người dùng (User Satisfaction):** Mức độ hài lòng của người dùng với hệ thống thông tin và các dịch vụ liên quan.
+*   **Lợi ích Ròng (Net Benefits):** Tác động tổng thể của hệ thống thông tin đến tổ chức và các bên liên quan, bao gồm lợi ích kinh tế, hiệu quả hoạt động, lợi thế cạnh tranh và các lợi ích khác.
+
+Mô hình D&M IS Success Model cho rằng chất lượng hệ thống, chất lượng thông tin và chất lượng dịch vụ ảnh hưởng đến sử dụng và sự hài lòng của người dùng, và sử dụng và sự hài lòng của người dùng lần lượt ảnh hưởng đến lợi ích ròng. Mô hình này cung cấp một khuôn khổ toàn diện để đánh giá sự thành công của hệ thống thông tin từ nhiều góc độ khác nhau.
+
+**Ứng dụng của Mô hình D&M IS Success Model trong Nghiên cứu HTTT:**
+
+*   **Đánh giá hiệu quả của hệ thống ERP:** Mô hình D&M IS Success Model được sử dụng để đánh giá sự thành công của việc triển khai hệ thống ERP trong các tổ chức, đo lường tác động của ERP đến hiệu suất kinh doanh và sự hài lòng của người dùng.
+*   **Đánh giá hệ thống thương mại điện tử:** Mô hình này được áp dụng để đánh giá sự thành công của các nền tảng thương mại điện tử, đo lường chất lượng hệ thống, chất lượng thông tin, chất lượng dịch vụ, sử dụng, sự hài lòng của khách hàng và lợi ích kinh doanh.
+*   **Đánh giá hệ thống thông tin y tế:** Mô hình D&M IS Success Model được sử dụng để đánh giá sự thành công của các hệ thống thông tin y tế, như hồ sơ bệnh án điện tử, hệ thống quản lý bệnh viện và các ứng dụng y tế từ xa, đo lường tác động đến chất lượng chăm sóc sức khỏe và sự hài lòng của bệnh nhân và nhân viên y tế.
+
+**6.4. Các Khung Lý thuyết Liên quan khác**
+
+Ngoài TAM, UTAUT và Mô hình D&M IS Success Model, còn có nhiều khung lý thuyết khác được sử dụng trong nghiên cứu HTTT, tùy thuộc vào chủ đề và mục tiêu nghiên cứu cụ thể. Một số khung lý thuyết liên quan khác bao gồm:
+
+*   **Lý thuyết Dòng chảy (Flow Theory):** Giải thích trạng thái tinh thần tối ưu của sự tập trung và hứng thú khi tương tác với công nghệ, đặc biệt trong bối cảnh trò chơi điện tử và trải nghiệm người dùng.
+*   **Lý thuyết Nhận thức Xã hội (Social Cognitive Theory):** Nhấn mạnh vai trò của học tập quan sát, tự hiệu quả và các yếu tố xã hội trong việc chấp nhận và sử dụng công nghệ.
+*   **Lý thuyết Tổ chức (Organizational Theories):** Các lý thuyết tổ chức như Lý thuyết Phụ thuộc Nguồn lực, Lý thuyết Thể chế và Lý thuyết Đại diện - Ủy thác được sử dụng để nghiên cứu tác động của HTTT đến cấu trúc tổ chức, quy trình kinh doanh và mối quan hệ giữa các tổ chức.
+
+Việc lựa chọn khung lý thuyết phù hợp là một bước quan trọng trong quá trình nghiên cứu HTTT. Nhà nghiên cứu cần xem xét kỹ lưỡng câu hỏi nghiên cứu, mục tiêu nghiên cứu và bối cảnh nghiên cứu để chọn ra khung lý thuyết có khả năng cung cấp nền tảng lý luận vững chắc và định hướng cho nghiên cứu một cách hiệu quả.
+
+**7. Nguồn Dữ liệu và Tập Dữ liệu trong Nghiên cứu Hệ thống Thông tin**
+
+Dữ liệu là nền tảng của mọi nghiên cứu khoa học, và nghiên cứu Hệ thống Thông tin (HTTT) cũng không ngoại lệ. Việc lựa chọn và sử dụng nguồn dữ liệu phù hợp là yếu tố then chốt để đảm bảo tính hợp lệ, độ tin cậy và giá trị của kết quả nghiên cứu. Trong lĩnh vực HTTT, các nhà nghiên cứu có thể tiếp cận nhiều nguồn dữ liệu khác nhau, từ dữ liệu công khai đến dữ liệu doanh nghiệp và dữ liệu thu thập trực tiếp từ khảo sát và thí nghiệm.
+
+**7.1. Dữ liệu Công khai (Public Datasets)**
+
+Dữ liệu công khai là nguồn tài nguyên vô giá cho nghiên cứu HTTT, cung cấp quyền truy cập vào lượng lớn thông tin đa dạng và phong phú [1], [2], [3]. Các bộ dữ liệu công khai thường được cung cấp bởi các tổ chức chính phủ, tổ chức quốc tế, viện nghiên cứu và các nền tảng dữ liệu mở.
+
+**Các nguồn dữ liệu công khai phổ biến:**
+
+*   **Kaggle:** Nền tảng dữ liệu khoa học dữ liệu và học máy, cung cấp hàng ngàn bộ dữ liệu công khai về nhiều chủ đề khác nhau, bao gồm trí tuệ nhân tạo, bảo mật hệ thống, phân tích doanh nghiệp, và nhiều lĩnh vực khác [🌍].
+*   **UCI Machine Learning Repository:** Kho lưu trữ dữ liệu học máy của Đại học California, Irvine, cung cấp các bộ dữ liệu chuẩn cho nghiên cứu học máy và khai phá dữ liệu [🌍].
+*   **World Bank Open Data:** Ngân hàng Thế giới cung cấp dữ liệu công khai về phát triển kinh tế, xã hội và môi trường của các quốc gia trên toàn thế giới, bao gồm dữ liệu về nền kinh tế số, xu hướng chuyển đổi số, và nhiều lĩnh vực khác [🌍].
+*   **OECD Data:** Tổ chức Hợp tác và Phát triển Kinh tế (OECD) cung cấp dữ liệu thống kê và phân tích về các quốc gia thành viên và các nền kinh tế lớn trên thế giới, bao gồm dữ liệu về khoa học, công nghệ và đổi mới [🌍].
+*   **IMF Data:** Quỹ Tiền tệ Quốc tế (IMF) cung cấp dữ liệu kinh tế vĩ mô và tài chính quốc tế, bao gồm dữ liệu về tăng trưởng kinh tế, lạm phát, cán cân thanh toán và nợ công [🌍].
+*   **APIs từ Mạng Xã hội (Twitter, LinkedIn, Facebook):** Các nền tảng mạng xã hội cung cấp APIs (Application Programming Interfaces) cho phép nhà nghiên cứu truy cập dữ liệu công khai về hoạt động người dùng, xu hướng thảo luận, và thông tin liên quan đến công nghệ [🌍]. Tuy nhiên, cần lưu ý về các điều khoản sử dụng và giới hạn truy cập của từng API.
+*   **Harvard Dataverse:** Kho lưu trữ dữ liệu nghiên cứu mở của Đại học Harvard, cung cấp các bộ dữ liệu từ nhiều lĩnh vực khoa học xã hội và nhân văn, bao gồm cả HTTT [🌍].
+*   **Open Science Framework (OSF):** Nền tảng nghiên cứu mở, cung cấp các công cụ và dịch vụ để chia sẻ dữ liệu, tài liệu và mã nguồn nghiên cứu, bao gồm cả các tài nguyên trong lĩnh vực HTTT [🌍].
+
+**Ưu điểm của dữ liệu công khai:**
+
+*   **Dễ dàng truy cập:** Dữ liệu công khai thường có sẵn miễn phí hoặc với chi phí thấp, giúp nhà nghiên cứu dễ dàng tiếp cận và sử dụng [2].
+*   **Đa dạng và phong phú:** Các bộ dữ liệu công khai bao phủ nhiều chủ đề và lĩnh vực khác nhau, cung cấp nguồn tài nguyên phong phú cho nghiên cứu HTTT [1].
+*   **Tiết kiệm chi phí và thời gian:** Sử dụng dữ liệu công khai giúp tiết kiệm chi phí và thời gian thu thập dữ liệu so với việc tự thu thập dữ liệu từ đầu [3].
+*   **Khả năng so sánh và đối chiếu:** Dữ liệu công khai thường được chuẩn hóa và có cấu trúc rõ ràng, tạo điều kiện thuận lợi cho việc so sánh và đối chiếu giữa các nghiên cứu khác nhau [2].
+
+**Hạn chế của dữ liệu công khai:**
+
+*   **Chất lượng dữ liệu:** Chất lượng dữ liệu công khai có thể khác nhau tùy thuộc vào nguồn cung cấp và phương pháp thu thập. Nhà nghiên cứu cần đánh giá cẩn thận chất lượng và độ tin cậy của dữ liệu trước khi sử dụng [4].
+*   **Tính phù hợp với câu hỏi nghiên cứu:** Không phải tất cả dữ liệu công khai đều phù hợp với câu hỏi nghiên cứu cụ thể. Nhà nghiên cứu cần lựa chọn bộ dữ liệu phù hợp với mục tiêu và phạm vi nghiên cứu của mình [3].
+*   **Vấn đề quyền riêng tư và đạo đức:** Mặc dù là dữ liệu công khai, việc sử dụng dữ liệu cá nhân từ các nguồn công khai vẫn cần tuân thủ các nguyên tắc đạo đức và quy định về quyền riêng tư [2], [8].
+
+**7.2. Dữ liệu từ Doanh nghiệp và Tổ chức (Enterprise Data)**
+
+Dữ liệu từ doanh nghiệp và tổ chức là nguồn thông tin quý giá để nghiên cứu các vấn đề HTTT trong bối cảnh thực tế [🏢]. Các doanh nghiệp và tổ chức thu thập và lưu trữ lượng lớn dữ liệu về hoạt động kinh doanh, quy trình làm việc, khách hàng, nhân viên và các khía cạnh khác liên quan đến hệ thống thông tin của họ.
+
+**Các loại dữ liệu doanh nghiệp phổ biến:**
+
+*   **Dữ liệu từ Hệ thống ERP (Enterprise Resource Planning):** Hệ thống ERP tích hợp dữ liệu từ nhiều bộ phận khác nhau trong doanh nghiệp, như tài chính, kế toán, nhân sự, sản xuất, kho vận và bán hàng. Dữ liệu ERP cung cấp cái nhìn tổng quan về hoạt động kinh doanh và quy trình làm việc của doanh nghiệp [🏢].
+*   **Dữ liệu từ Hệ thống CRM (Customer Relationship Management):** Hệ thống CRM quản lý thông tin về khách hàng, tương tác khách hàng, lịch sử mua hàng và các dữ liệu liên quan đến quan hệ khách hàng. Dữ liệu CRM hữu ích cho nghiên cứu về hành vi khách hàng, quản lý quan hệ khách hàng và marketing [🏢].
+*   **Dữ liệu từ Hệ thống BI (Business Intelligence):** Hệ thống BI thu thập, phân tích và trực quan hóa dữ liệu kinh doanh để hỗ trợ ra quyết định. Dữ liệu BI bao gồm các báo cáo, bảng điều khiển và phân tích về hiệu suất kinh doanh, xu hướng thị trường và các chỉ số quan trọng khác [🏢].
+*   **Dữ liệu Y tế (EHR - Electronic Health Records):** Hồ sơ bệnh án điện tử (EHR) chứa thông tin chi tiết về bệnh nhân, lịch sử bệnh, kết quả xét nghiệm, đơn thuốc và các dữ liệu y tế khác. Dữ liệu EHR quan trọng cho nghiên cứu về HTTT y tế, bảo mật và quyền riêng tư trong lĩnh vực y tế [🏢].
+*   **Dữ liệu Thương mại Điện tử:** Các nền tảng thương mại điện tử thu thập dữ liệu về hành vi mua sắm trực tuyến của khách hàng, lịch sử giao dịch, thông tin sản phẩm, đánh giá sản phẩm và các dữ liệu liên quan đến hoạt động thương mại điện tử. Dữ liệu này hữu ích cho nghiên cứu về hành vi khách hàng trực tuyến, hệ thống gợi ý sản phẩm và tối ưu hóa trải nghiệm mua sắm trực tuyến [🏢].
+
+**Ưu điểm của dữ liệu doanh nghiệp:**
+
+*   **Tính thực tế cao:** Dữ liệu doanh nghiệp phản ánh hoạt động thực tế của tổ chức, cung cấp bối cảnh và thông tin chi tiết cho nghiên cứu HTTT trong môi trường thực tế [6], [8].
+*   **Tính độc quyền:** Dữ liệu doanh nghiệp thường là độc quyền và không có sẵn công khai, mang lại lợi thế cạnh tranh cho nghiên cứu sử dụng dữ liệu này [8].
+*   **Khả năng tiếp cận các vấn đề cụ thể:** Dữ liệu doanh nghiệp cho phép nhà nghiên cứu tiếp cận các vấn đề và thách thức cụ thể mà doanh nghiệp đang đối mặt, từ đó tạo ra các nghiên cứu có giá trị ứng dụng cao [6].
+
+**Hạn chế của dữ liệu doanh nghiệp:**
+
+*   **Khó tiếp cận:** Dữ liệu doanh nghiệp thường khó tiếp cận do vấn đề bảo mật, quyền riêng tư và cạnh tranh. Nhà nghiên cứu cần có sự cho phép và hợp tác từ doanh nghiệp để truy cập dữ liệu [13].
+*   **Chất lượng dữ liệu:** Chất lượng dữ liệu doanh nghiệp có thể không đồng đều và có thể chứa lỗi, thiếu sót hoặc không nhất quán. Nhà nghiên cứu cần làm sạch và chuẩn hóa dữ liệu trước khi phân tích [1].
+*   **Vấn đề bảo mật và quyền riêng tư:** Dữ liệu doanh nghiệp thường chứa thông tin nhạy cảm về khách hàng, nhân viên và hoạt động kinh doanh. Nhà nghiên cứu cần tuân thủ nghiêm ngặt các quy định về bảo mật và quyền riêng tư khi xử lý dữ liệu doanh nghiệp [2], [8].
+
+**7.3. Dữ liệu từ Khảo sát và Thí nghiệm (Survey and Experiment Data)**
+
+Dữ liệu từ khảo sát và thí nghiệm là nguồn dữ liệu sơ cấp, được thu thập trực tiếp bởi nhà nghiên cứu để trả lời các câu hỏi nghiên cứu cụ thể [📊]. Các phương pháp khảo sát và thí nghiệm đã được trình bày chi tiết trong phần 3 và 4.
+
+**Các công cụ và nền tảng thu thập dữ liệu khảo sát và thí nghiệm:**
+
+*   **Qualtrics:** Nền tảng khảo sát trực tuyến mạnh mẽ, cung cấp nhiều loại câu hỏi, tính năng phân tích và khả năng tích hợp với các hệ thống khác [📊].
+*   **SurveyMonkey:** Nền tảng khảo sát trực tuyến phổ biến, dễ sử dụng và cung cấp các công cụ cơ bản để thiết kế, phân phối và phân tích khảo sát [📊].
+*   **Phần mềm thí nghiệm mô phỏng:** Các phần mềm như Arena, AnyLogic, Simio cho phép nhà nghiên cứu xây dựng và thực hiện các thí nghiệm mô phỏng để đánh giá hiệu suất hệ thống, kiểm tra an toàn thông tin và nghiên cứu các kịch bản khác nhau [📊].
+
+**Ưu điểm của dữ liệu khảo sát và thí nghiệm:**
+
+*   **Phù hợp với câu hỏi nghiên cứu:** Dữ liệu được thu thập trực tiếp để trả lời câu hỏi nghiên cứu cụ thể, đảm bảo tính phù hợp và tập trung của dữ liệu [📊].
+*   **Kiểm soát chất lượng dữ liệu:** Nhà nghiên cứu có thể kiểm soát chất lượng dữ liệu trong quá trình thu thập, đảm bảo tính chính xác và độ tin cậy của dữ liệu [📊].
+*   **Khả năng thiết lập mối quan hệ nhân quả:** Thí nghiệm cho phép thiết lập mối quan hệ nhân quả giữa các biến số, cung cấp bằng chứng mạnh mẽ cho các kết luận nghiên cứu [📊].
+
+**Hạn chế của dữ liệu khảo sát và thí nghiệm:**
+
+*   **Tốn thời gian và nguồn lực:** Thu thập dữ liệu khảo sát và thí nghiệm thường tốn thời gian và nguồn lực đáng kể, đặc biệt là đối với các nghiên cứu quy mô lớn [📊].
+*   **Khó tiếp cận mẫu lớn:** Thu thập dữ liệu từ mẫu lớn có thể khó khăn và tốn kém, đặc biệt là đối với các nghiên cứu thí nghiệm [📊].
+*   **Thiên vị mẫu:** Mẫu nghiên cứu có thể không đại diện cho quần thể mục tiêu, ảnh hưởng đến khả năng tổng quát hóa kết quả [📊].
+*   **Vấn đề đạo đức:** Nghiên cứu thí nghiệm có thể đặt ra các vấn đề đạo đức, đặc biệt là khi thao túng biến số hoặc thu thập dữ liệu nhạy cảm từ người tham gia [📊].
+
+**8. Phân tích So sánh các Mô hình Nghiên cứu trong Hệ thống Thông tin**
+
+Nghiên cứu Hệ thống Thông tin (HTTT) sử dụng nhiều mô hình nghiên cứu khác nhau, mỗi mô hình có nền tảng triết học, phương pháp luận và ứng dụng riêng [5], [6]. Việc hiểu rõ sự khác biệt giữa các mô hình nghiên cứu này là rất quan trọng để nhà nghiên cứu lựa chọn phương pháp phù hợp với câu hỏi nghiên cứu và mục tiêu nghiên cứu của mình.
+
+**8.1. Chủ nghĩa Thực chứng (Positivist) vs. Chủ nghĩa Diễn giải (Interpretivist) vs. Chủ nghĩa Phản biện (Critical Research)**
+
+Ba mô hình nghiên cứu chính trong HTTT, phân biệt theo nền tảng triết học và mục tiêu nghiên cứu, bao gồm:
+
+*   **Chủ nghĩa Thực chứng (Positivist):** Mô hình này dựa trên triết học thực chứng, cho rằng thực tế là khách quan, có thể đo lường và kiểm chứng được [5], [6]. Nghiên cứu thực chứng tập trung vào việc tìm kiếm các quy luật phổ quát và mối quan hệ nhân quả giữa các biến số. Phương pháp nghiên cứu chủ yếu là định lượng, sử dụng khảo sát, thí nghiệm và phân tích thống kê.
+    *   **Khi nào nên sử dụng:** Khi mục tiêu nghiên cứu là kiểm tra các giả thuyết, đo lường các mối quan hệ nhân quả, và tổng quát hóa kết quả cho quần thể lớn hơn.
+    *   **Ứng dụng trong HTTT:** Nghiên cứu về sự chấp nhận công nghệ, hiệu quả hệ thống thông tin, tác động của công nghệ đến năng suất và hiệu quả kinh doanh.
+*   **Chủ nghĩa Diễn giải (Interpretivist):** Mô hình này dựa trên triết học diễn giải, cho rằng thực tế là chủ quan, được xây dựng bởi con người thông qua tương tác xã hội và diễn giải ý nghĩa [3], [8]. Nghiên cứu diễn giải tập trung vào việc hiểu sâu sắc ý nghĩa, kinh nghiệm và quan điểm của con người trong bối cảnh cụ thể. Phương pháp nghiên cứu chủ yếu là định tính, sử dụng nghiên cứu tình huống, phỏng vấn chuyên sâu và quan sát thực địa.
+    *   **Khi nào nên sử dụng:** Khi mục tiêu nghiên cứu là khám phá và hiểu sâu sắc các hiện tượng phức tạp, tìm hiểu trải nghiệm người dùng, và phân tích các yếu tố xã hội và văn hóa ảnh hưởng đến HTTT.
+    *   **Ứng dụng trong HTTT:** Nghiên cứu về trải nghiệm người dùng, tác động xã hội của hệ thống thông tin, văn hóa tổ chức và sự thay đổi do công nghệ mang lại.
+*   **Chủ nghĩa Phản biện (Critical Research):** Mô hình này dựa trên lý thuyết phê bình, cho rằng nghiên cứu không chỉ mô tả và giải thích thực tế, mà còn phải phê phán và thay đổi thực tế để giải phóng con người khỏi áp bức và bất công [9], [11]. Nghiên cứu phản biện tập trung vào việc phân tích các cấu trúc quyền lực, bất bình đẳng xã hội và các vấn đề đạo đức liên quan đến HTTT. Phương pháp nghiên cứu có thể là định tính, định lượng hoặc hỗn hợp, thường kết hợp phân tích phê bình, điều tra hành động và nghiên cứu tham gia.
+    *   **Khi nào nên sử dụng:** Khi mục tiêu nghiên cứu là giải quyết các vấn đề xã hội và đạo đức liên quan đến HTTT, phê phán các cấu trúc quyền lực và bất bình đẳng, và thúc đẩy sự thay đổi xã hội tích cực.
+    *   **Ứng dụng trong HTTT:** Nghiên cứu về quyền riêng tư và bảo mật dữ liệu, phân biệt đối xử và bất công bằng trong hệ thống thông tin, tác động của công nghệ đến lao động và xã hội.
+
+**Bảng so sánh các mô hình nghiên cứu:**
+
+| Đặc điểm        | Chủ nghĩa Thực chứng (Positivist) | Chủ nghĩa Diễn giải (Interpretivist) | Chủ nghĩa Phản biện (Critical Research) |
+| --------------- | ---------------------------------- | ----------------------------------- | ------------------------------------ |
+| **Bản thể luận** | Thực tế khách quan, duy nhất        | Thực tế chủ quan, đa dạng           | Thực tế được xây dựng xã hội, bất bình đẳng |
+| **Nhận thức luận** | Kiến thức khách quan, có thể kiểm chứng | Kiến thức chủ quan, diễn giải        | Kiến thức phê phán, giải phóng        |
+| **Phương pháp luận** | Định lượng, kiểm tra giả thuyết      | Định tính, khám phá ý nghĩa          | Hỗn hợp, phê phán và thay đổi         |
+| **Mục tiêu**      | Mô tả, giải thích, dự đoán          | Hiểu sâu sắc, diễn giải             | Phê phán, thay đổi, giải phóng        |
+| **Giá trị**       | Khách quan, trung lập              | Chủ quan, phản ánh quan điểm        | Giá trị rõ ràng, hướng đến thay đổi    |
+
+**8.2. Nghiên cứu Định lượng vs. Nghiên cứu Định tính vs. Nghiên cứu Hỗn hợp**
+
+*   **Nghiên cứu Định lượng:** Tập trung vào dữ liệu số, phân tích thống kê, kiểm tra giả thuyết, tổng quát hóa kết quả.
+    *   **Ưu điểm:** Khái quát hóa cao, độ tin cậy cao, thiết lập quan hệ nhân quả.
+    *   **Hạn chế:** Thiếu chiều sâu, khó nắm bắt bối cảnh, đơn giản hóa thực tế.
+*   **Nghiên cứu Định tính:** Tập trung vào dữ liệu phi số, diễn giải ý nghĩa, khám phá sâu sắc, hiểu bối cảnh.
+    *   **Ưu điểm:** Chiều sâu, hiểu bối cảnh, khám phá vấn đề mới.
+    *   **Hạn chế:** Khó khái quát hóa, độ tin cậy thấp hơn, thiên vị chủ quan.
+*   **Nghiên cứu Hỗn hợp (Mixed Methods Research):** Kết hợp cả phương pháp định lượng và định tính trong cùng một nghiên cứu [4], [6]. Nghiên cứu hỗn hợp có thể sử dụng các thiết kế khác nhau, như tuần tự (định tính trước định lượng hoặc ngược lại), đồng thời (định tính và định lượng song song) và tích hợp (kết hợp dữ liệu định tính và định lượng trong phân tích và diễn giải).
+    *   **Ưu điểm:** Toàn diện, sâu sắc, mạnh mẽ hơn khi kết hợp điểm mạnh của cả hai phương pháp.
+    *   **Hạn chế:** Phức tạp, tốn thời gian và nguồn lực, đòi hỏi kỹ năng đa dạng.
+
+**8.3. Khoa học Thiết kế vs. Nghiên cứu Thực nghiệm**
+
+*   **Khoa học Thiết kế (Design Science):** Tập trung vào việc tạo ra và đánh giá các giải pháp công nghệ mới (hiện vật thiết kế) để giải quyết vấn đề và mở rộng kiến thức [2], [5].
+    *   **Khi nào cần phát triển một công cụ/sản phẩm mới (Design Science)?** Khi có một vấn đề thực tiễn chưa có giải pháp thỏa đáng, hoặc khi muốn cải tiến các giải pháp hiện có một cách sáng tạo và đổi mới.
+    *   **Ứng dụng trong phát triển phần mềm, hệ thống trí tuệ nhân tạo, hệ thống thông tin doanh nghiệp:** Thiết kế hệ thống phần mềm mới, phát triển thuật toán AI, tối ưu hóa quy trình kinh doanh bằng công nghệ.
+*   **Nghiên cứu Thực nghiệm (Empirical Research):** Tập trung vào việc mô tả, giải thích hoặc dự đoán các hiện tượng hiện có thông qua thu thập và phân tích dữ liệu thực nghiệm (định lượng hoặc định tính) [1].
+    *   **Khi nào cần phân tích các hệ thống hiện có (Empirical Research)?** Khi muốn hiểu rõ hơn về các hiện tượng HTTT hiện có, kiểm tra các lý thuyết và giả thuyết, hoặc đánh giá hiệu quả của các hệ thống và công nghệ thông tin đang được sử dụng.
+    *   **Ứng dụng trong nghiên cứu về chấp nhận công nghệ, tác động của HTTT đến tổ chức, hành vi người dùng hệ thống thông tin:** Nghiên cứu sự chấp nhận hệ thống ERP, tác động của mạng xã hội đến hiệu suất làm việc, hành vi mua sắm trực tuyến của khách hàng.
+
+**9. Phạm vi và Giới hạn của Tài liệu**
+
+Tài liệu này tập trung vào nghiên cứu ứng dụng trong Hệ thống Thông tin, với trọng tâm vào năm phân ngành chính, nhằm cung cấp một hướng dẫn nhập môn có phạm vi rõ ràng và tập trung, đồng thời vẫn đảm bảo tính toàn diện trong các lĩnh vực cốt lõi của HTTT.
+
+**9.1. Phạm vi:**
+
+Tài liệu này tập trung vào 5 phân ngành chính của Hệ thống Thông tin:
+
+1.  **Hệ thống Thông tin Doanh nghiệp (ERP, CRM, BI):** Nghiên cứu về việc ứng dụng và quản lý các hệ thống thông tin tích hợp trong doanh nghiệp, bao gồm ERP (Hoạch định Nguồn lực Doanh nghiệp), CRM (Quản lý Quan hệ Khách hàng) và BI (Trí tuệ Doanh nghiệp). Trọng tâm là phân tích tác động của công nghệ lên hiệu suất doanh nghiệp, tối ưu hóa quy trình kinh doanh và cải thiện khả năng ra quyết định dựa trên dữ liệu [1], [4].
+2.  **Tương tác Người-Máy (HCI) & UX trong HTTT:** Nghiên cứu về cách con người tương tác với hệ thống máy tính và phần mềm, tập trung vào trải nghiệm người dùng (UX) và thiết kế giao diện người dùng (UI). Phạm vi bao gồm đánh giá trải nghiệm người dùng với hệ thống phần mềm, thiết kế giao diện thân thiện và hiệu quả, và nghiên cứu về các yếu tố ảnh hưởng đến sự hài lòng và hiệu suất của người dùng [1].
+3.  **An toàn Thông tin & Quyền Riêng tư:** Nghiên cứu về các vấn đề bảo mật dữ liệu, phòng chống tấn công mạng, bảo vệ thông tin cá nhân và đảm bảo quyền riêng tư trong môi trường hệ thống thông tin. Phạm vi bao gồm các khía cạnh kỹ thuật, quản lý và đạo đức liên quan đến an toàn thông tin và quyền riêng tư [2], [8].
+4.  **Phân tích Dữ liệu & Trí tuệ Doanh nghiệp:** Nghiên cứu về ứng dụng khoa học dữ liệu, khai phá dữ liệu, học máy và trí tuệ nhân tạo vào phân tích dữ liệu HTTT, nhằm tạo ra tri thức, hỗ trợ ra quyết định và cải thiện hiệu suất kinh doanh. Phạm vi bao gồm các phương pháp phân tích dữ liệu, công cụ BI, ứng dụng AI trong phân tích dữ liệu và các vấn đề liên quan đến quản lý dữ liệu lớn [3].
+5.  **Công nghệ Mới trong HTTT (AI, Blockchain, IoT):** Nghiên cứu về ảnh hưởng và ứng dụng của các công nghệ đột phá như Trí tuệ Nhân tạo (AI), Blockchain, Internet of Things (IoT) và các công nghệ mới nổi khác trong lĩnh vực HTTT. Phạm vi bao gồm phân tích tiềm năng, thách thức và tác động của các công nghệ này đến doanh nghiệp, tổ chức và xã hội [14], [15].
+
+**9.2. Giới hạn:**
+
+*   **Giới hạn về chiều sâu:** Tài liệu này là một hướng dẫn nhập môn, do đó không thể đi sâu vào mọi khía cạnh của từng phương pháp nghiên cứu, khung lý thuyết và phân ngành HTTT. Người đọc cần tham khảo thêm các tài liệu chuyên sâu hơn để có kiến thức chi tiết và chuyên biệt.
+*   **Giới hạn về phạm vi:** Mặc dù tập trung vào 5 phân ngành chính, lĩnh vực HTTT rất rộng lớn và đa dạng. Tài liệu này không bao phủ tất cả các phân ngành và chủ đề nghiên cứu trong HTTT.
+*   **Giới hạn về tính cập nhật:** Lĩnh vực HTTT phát triển rất nhanh chóng, đặc biệt là các công nghệ mới nổi. Mặc dù tài liệu cố gắng cập nhật các xu hướng mới nhất, nhưng có thể có những phát triển mới chưa được phản ánh đầy đủ.
+*   **Giới hạn về đối tượng:** Tài liệu này chủ yếu hướng đến người mới bắt đầu nghiên cứu HTTT. Các nhà nghiên cứu có kinh nghiệm có thể tìm thấy tài liệu này hữu ích như một nguồn tổng quan, nhưng có thể cần các tài liệu chuyên sâu hơn cho nghiên cứu của họ.
+
+**10. Kết luận và Hướng nghiên cứu Tương lai**
+
+Tài liệu nghiên cứu này đã cung cấp một hướng dẫn nhập môn toàn diện về nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin (HTTT), từ cơ bản đến nâng cao. Tài liệu đã trình bày chi tiết về ba phương pháp nghiên cứu chính (định lượng, định tính, khoa học thiết kế), các khung lý thuyết nền tảng (TAM, UTAUT, DeLone & McLean, v.v.), các nguồn dữ liệu đa dạng và phân tích so sánh các mô hình nghiên cứu khác nhau. Phạm vi của tài liệu được giới hạn trong năm phân ngành chính của HTTT, nhằm đảm bảo tính tập trung và phù hợp với mục tiêu hướng dẫn nhập môn.
+
+**Tóm tắt các điểm chính:**
+
+*   **Phương pháp luận đa dạng:** Nghiên cứu HTTT sử dụng nhiều phương pháp luận khác nhau, bao gồm định lượng, định tính và khoa học thiết kế, mỗi phương pháp có ưu điểm và hạn chế riêng, phù hợp với các loại câu hỏi nghiên cứu khác nhau [1], [3], [9].
+*   **Khung lý thuyết nền tảng:** Các khung lý thuyết như TAM, UTAUT và Mô hình D&M IS Success Model cung cấp nền tảng lý luận vững chắc cho nghiên cứu HTTT, giúp nhà nghiên cứu xây dựng thiết kế nghiên cứu chặt chẽ và diễn giải kết quả một cách có ý nghĩa [10], [15], [16], [17].
+*   **Nguồn dữ liệu phong phú:** Nghiên cứu HTTT có thể tận dụng nhiều nguồn dữ liệu khác nhau, từ dữ liệu công khai, dữ liệu doanh nghiệp đến dữ liệu thu thập trực tiếp từ khảo sát và thí nghiệm, tùy thuộc vào mục tiêu và phạm vi nghiên cứu [1], [2], [3], [4].
+*   **Phân tích so sánh mô hình nghiên cứu:** Việc so sánh các mô hình nghiên cứu thực chứng, diễn giải và phản biện giúp nhà nghiên cứu hiểu rõ hơn về các quan điểm triết học và phương pháp luận khác nhau trong HTTT, từ đó lựa chọn phương pháp phù hợp [5], [6].
+*   **Phạm vi tập trung:** Tài liệu tập trung vào 5 phân ngành chính của HTTT, bao gồm Hệ thống Thông tin Doanh nghiệp, Tương tác Người-Máy, An toàn Thông tin, Phân tích Dữ liệu và Công nghệ mới nổi, cung cấp một hướng dẫn nhập môn có phạm vi rõ ràng và thiết thực.
+
+**Hướng nghiên cứu tương lai:**
+
+*   **Phát triển các hướng dẫn chuyên sâu hơn:** Các nghiên cứu tương lai có thể phát triển các hướng dẫn chuyên sâu hơn về từng phương pháp nghiên cứu, khung lý thuyết và phân ngành HTTT, cung cấp kiến thức chi tiết và chuyên biệt hơn cho người đọc.
+*   **Nghiên cứu về phương pháp hỗn hợp:** Nghiên cứu về việc kết hợp phương pháp định lượng và định tính (nghiên cứu hỗn hợp) trong HTTT cần được đẩy mạnh, nhằm tận dụng điểm mạnh của cả hai phương pháp và giải quyết các vấn đề nghiên cứu phức tạp một cách toàn diện hơn [4], [6].
+*   **Nghiên cứu về các công nghệ mới nổi:** Nghiên cứu về ảnh hưởng và ứng dụng của các công nghệ mới nổi như AI, Blockchain, IoT và Metaverse trong HTTT cần được tiếp tục mở rộng và đi sâu, nhằm khám phá tiềm năng và thách thức của các công nghệ này đối với lĩnh vực HTTT và xã hội [14], [15].
+*   **Nghiên cứu về đạo đức trong HTTT:** Các vấn đề đạo đức liên quan đến HTTT, như quyền riêng tư, bảo mật dữ liệu, phân biệt đối xử và bất công bằng, cần được nghiên cứu kỹ lưỡng hơn, đặc biệt trong bối cảnh công nghệ ngày càng phát triển và ảnh hưởng sâu rộng đến xã hội [2], [8].
+*   **Đánh giá hiệu quả của hướng dẫn:** Nghiên cứu thực nghiệm có thể được thực hiện để đánh giá hiệu quả của tài liệu hướng dẫn này trong việc nâng cao năng lực nghiên cứu khoa học của người mới bắt đầu trong lĩnh vực HTTT.
+
+Tài liệu nghiên cứu này hy vọng sẽ đóng góp vào việc nâng cao chất lượng và số lượng nghiên cứu khoa học trong lĩnh vực Hệ thống Thông tin tại Việt Nam, đồng thời trang bị cho thế hệ nhà nghiên cứu trẻ những kiến thức và kỹ năng cần thiết để thành công trong lĩnh vực đầy thách thức và tiềm năng này.
+
+**Tài liệu tham khảo**
 
 [1] Kilani, M., & Kobziev, V. (2016). An Overview of Research Methodology in Information System (IS). *Open Access Library Journal, 3*(1), 1-9.
 
 [2] Peffers, K., Tuunanen, T., Rothenberger, M. A., Chatterjee, S., & Vaezi, R. (2007). Design Science Research Methodology. *Journal of Management Information Systems, 24*(3), 45-77.
 
-[3] Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly, 28*(1), 75-105.
+[3] Mixed-Methods in Information Systems Research: Status Quo, Core Concepts, and Future Research Implications.
 
-[4] Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. *MIS Quarterly, 27*(3), 425-478.
+[4] Mixed-Methods in Information Systems Research: Status Quo, Core Concepts, and Future - Uni Bamberg.
 
-[5] Deng, Q., & Ji, S. (2018). A Review of Design Science Research in Information Systems: Concept, Process, Outcome, and Evaluation. *Pacific Asia Journal of the Association for Information Systems, 10*(1), 2.
+[5] Deng, Q and Ji, Shaobo (2018) "A Review of Design Science Research in Information Systems: Concept, Process, Outcome, and Evaluation," *Pacific Asia Journal of the Association for Information Systems: Vol. 10: Iss. 1, Article 2.*
 
-[6] Nastjuk, I., Goerlich, D., & Smolnik, S. (2020). The Use of Mixed-Methods as a Research Strategy in Information Systems Studies.
+[6] The Use of Mixed-Methods as a Research Strategy in Information Systems Studies.
 
-[7] DeLone, W. H., & McLean, E. R. (2003). The DeLone and McLean model of information systems success: A ten-year update. *Journal of Management Information Systems, 19*(4), 9-30.
+[7] DeLone, W. H., & McLean, E. R. (2003). The DeLone and McLean model of information systems success: A ten-year update. *Journal of Management Information Systems*, *19*(4), 9-30.
 
 [8] Guidelines for Conducting Design Science Research in Information Systems - CAIR.
 
 [9] "Next-Generation Information Systems Research Methods” - Sage Journals.
 
-[10] Bagozzi, R. P. (2007). The legacy of the technology acceptance model and a proposal for a paradigm shift. *Journal of the Association for Information Systems, 8*(4), 244-254.
+[10] Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. *MIS Quarterly*, *13*(3), 319-340.
 
-[11] Mixed-Methods in Information Systems Research: Status Quo, Core Concepts, and Future Research Implications.
+[11] Mixed-Methods in Information Systems Research: Status Quo, Core Concepts, and Future - Uni Bamberg.
 
 [12] Qualitative Research in Information Systems.
 
-[13] Mixed-Methods in Information Systems Research: Status Quo, Core Concepts, and Future - Uni Bamberg.
+[13] "The Significance of Mixed Methods Research in Information Systems Rese" by Osden Jokonya - AIS eLibrary.
 
-[14] "The Significance of Mixed Methods Research in Information Systems Rese" by Osden Jokonya - AIS eLibrary.
+[14] Collins, Christopher, et al. "Artificial intelligence in information systems research: A systematic literature review and research agenda." *International Journal of Information Management*, vol. 60, Elsevier, 2021.
 
-[15] Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. *MIS Quarterly, 13*(3), 319-340.
+[15] Bagozzi, R. P. (2007). The legacy of the technology acceptance model and a proposal for a paradigm shift. *Journal of the Association for Information Systems*, *8*(4), 244-254.
 
-[16] The Use of Mixed-Methods as a Research Strategy in Information Systems Studies.
+[16] Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. *MIS Quarterly*, *27*(3), 425-478.
 
-[17] Qualitative Research in Information Systems.
+[17] DeLone, W. H., & McLean, E. R. (2003). The DeLone and McLean model of information systems success: A ten-year update. *Journal of Management Information Systems*, *19*(4), 9-30.
 
 [18] What Is Quantitative Research? An Overview and Guidelines - Weng Marc Lim, 2024.
 
@@ -228,35 +443,21 @@ Tài liệu nghiên cứu này đã cung cấp một hướng dẫn nhập môn 
 
 [20] Quantitative Methods: A Complete Overview - Simplilearn.com.
 
-[21] Bernard Marr, "Big Data And AI: 30 Amazing (And Free) Public Data Sources," *bernardmarr.com*.
+[21] Hevner et al./Design Science in IS Research.
 
-[22] Acceldata.io, "Open Source Data: Your Guide to the Future of Free Data Analysis and Visualization," *acceldata.io*, 2024-10-20.
+[22] Scribbr. (2022, May 3). *Reliability vs Validity in Research | Differences, Types & Examples*. Retrieved from [https://www.scribbr.co.uk/methodology/reliability-and-validity/](https://www.scribbr.co.uk/methodology/reliability-and-validity/)
 
-[23] WebFX, "30+ Amazing Free Data Sources You Need to Use in 2025," *webfx.com*.
+[23] Scribbr. (2022, October 8). *What Is Generalizability? | Definition & Examples*. Retrieved from [https://www.scribbr.com/methodology/generalizability/](https://www.scribbr.com/methodology/generalizability/)
 
-[24] Portable, "Data Sources: Overview, Types of Data, & Free Data Providers," *portable.io*, 2023-03-14.
+[24] The WAC Clearinghouse. *Understanding Generalizability and Transferability*. Retrieved from [https://wac.colostate.edu/repository/resources/research/terms/](https://wac.colostate.edu/repository/resources/research/terms/)
 
-[25] National University Library, "LibGuides: Research Process: Datasets," *nu.edu*, 2025-03-12.
+[25] NIH. *Generalizability and representativeness: considerations for internet-based research on substance use behaviors*. Retrieved from [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4040034/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4040034/)
 
-[26] VIRAC, "Top 10 website cung cấp dữ liệu thống kê uy tín nhất 2023" [Top 10 most reputable statistical data websites in 2023], *viracresearch.com*, 2023-09-20.
+[🌍] Bernard Marr, "Big Data And AI: 30 Amazing (And Free) Public Data Sources," *bernardmarr.com*.
 
-[27] hcmulaw.edu.vn, "Phương pháp thu thập dữ liệu trong NCKH ngành quản trị" [Methods of data collection in scientific research in the management sector], *hcmulaw.edu.vn*, 2022-10-10.
+[🏢] hcmulaw.edu.vn, "Phương pháp thu thập dữ liệu trong NCKH ngành quản trị" [Methods of data collection in scientific research in the management sector], *hcmulaw.edu.vn*, 2022-10-10.
 
-[28] 1C Việt Nam, "Hệ thống thông tin quản lý trong doanh nghiệp hiện nay" [Management information systems in enterprises today], *1c.com.vn*, 2024-12-17.
-
-[29] Nhanh.vn, "Hệ thống thông tin marketing là gì? Vai trò của nó như thế nào?" [What is a marketing information system? What is its role?], *nhanh.vn*, 2024-08-12.
-
-[30] Collins, Christopher, et al. "Artificial intelligence in information systems research: A systematic literature review and research agenda." *International Journal of Information Management*, vol. 60, Elsevier, 2021.
-
-[31] Gartner Predicts 8% Growth for the Worldwide ERP Software Market in 2023.
-
-[32] Human-Computer Interaction and Management Information Systems: Foundations.
-
-[33] A systematic review of blockchain research trends in information systems.
-
-[34] Internet of Things: Opportunities and challenges for accounting information systems.
-
-[35] Resource-Based View (RBV).
+[📊] National University Library, "LibGuides: Research Process: Datasets," *nu.edu*, 2025-03-12.
 
 ---
 
